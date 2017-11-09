@@ -605,12 +605,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: a6ce2743-3477-41e6-8ff8-08c76d2dca89
-  projectName: Spot
-  organizationId: cmf3ap
+  cloudProjectId: 963ee164-c9a4-4aab-88b3-f52473d0cf6f
+  projectName: ViNoApp
+  organizationId: emily2zhou
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
