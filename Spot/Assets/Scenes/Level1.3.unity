@@ -499,6 +499,50 @@ MonoBehaviour:
   - {fileID: 9009039}
   - {fileID: 993458922}
   - {fileID: 1065348009}
+--- !u!1 &30667980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 30667981}
+  - component: {fileID: 30667982}
+  m_Layer: 0
+  m_Name: Walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &30667981
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 30667980}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1287383662}
+  m_Father: {fileID: 682034432}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30667982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 30667980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &40430355
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,6 +699,50 @@ MonoBehaviour:
   fromAmount: {x: 0, y: 0, z: 0}
   crossfadeTargetA: {fileID: 0}
   crossfadeTargetB: {fileID: 0}
+--- !u!1 &62118149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 62118150}
+  - component: {fileID: 62118151}
+  m_Layer: 0
+  m_Name: 1_Selected1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &62118150
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62118149}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1706413593}
+  m_Father: {fileID: 1495522345}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &62118151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62118149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &67135113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,6 +1814,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 200561377}
   m_Mesh: {fileID: 4300000, guid: d54e0c36f07844b66b9006ce145e33cf, type: 2}
+--- !u!1 &201528980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 201528981}
+  - component: {fileID: 201528982}
+  m_Layer: 0
+  m_Name: Get a toy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &201528981
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 201528980}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2102738399}
+  m_Father: {fileID: 1495251740}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &201528982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 201528980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &212982959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,6 +1927,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 212982959}
   m_Mesh: {fileID: 4300000, guid: d54e0c36f07844b66b9006ce145e33cf, type: 2}
+--- !u!1 &225496230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 225496231}
+  - component: {fileID: 225496232}
+  m_Layer: 0
+  m_Name: Take a nap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225496231
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225496230}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 712848512}
+  m_Father: {fileID: 1495251740}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &225496232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 225496230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &226016315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,7 +2109,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1495522345}
   m_Father: {fileID: 900088411}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1988,7 +2165,7 @@ MonoBehaviour:
   - active: 1
     dialogID: 1
     show: 0
-    isName: 1
+    isName: 0
     isBGM: 0
     isSE: 0
     isVoice: 0
@@ -1996,7 +2173,9 @@ MonoBehaviour:
     isClearMessageAfter: 1
     textBoxID: 0
     nameText: Sachi
-    dialogText: Hello. I am Sachi.
+    dialogText: "The family leaves the house to go to work and school.\n Spot is sad
+      that they are gone, but knows that they \nwill come back later, as they always
+      do."
     actionID: 0
     bgmAudioKey: 
     seAudioKey: 
@@ -2040,7 +2219,7 @@ MonoBehaviour:
   - active: 1
     dialogID: 3
     show: 0
-    isName: 1
+    isName: 0
     isBGM: 0
     isSE: 0
     isVoice: 0
@@ -2048,7 +2227,8 @@ MonoBehaviour:
     isClearMessageAfter: 1
     textBoxID: 0
     nameText: Maiko
-    dialogText: Hi. Sachi.
+    dialogText: "He lays by the front door and waits for their return,\n napping from
+      time to time and barking at squirrels \nthat walk on the lawn."
     actionID: 0
     bgmAudioKey: 
     seAudioKey: 
@@ -2064,7 +2244,7 @@ MonoBehaviour:
   - active: 1
     dialogID: 4
     show: 0
-    isName: 1
+    isName: 0
     isBGM: 0
     isSE: 0
     isVoice: 0
@@ -2072,7 +2252,8 @@ MonoBehaviour:
     isClearMessageAfter: 1
     textBoxID: 0
     nameText: Sachi
-    dialogText: Bye Bye !
+    dialogText: "A few hours later, the family comes home. \nSpot greets everyone
+      as they walk through the door."
     actionID: 0
     bgmAudioKey: 
     seAudioKey: 
@@ -2088,7 +2269,7 @@ MonoBehaviour:
   - active: 1
     dialogID: 5
     show: 0
-    isName: 1
+    isName: 0
     isBGM: 0
     isSE: 0
     isVoice: 0
@@ -2096,7 +2277,8 @@ MonoBehaviour:
     isClearMessageAfter: 1
     textBoxID: 0
     nameText: Maiko
-    dialogText: Bye Bye !
+    dialogText: "The family has dinner together then retreat to their\n rooms while
+      Leah cleans up. Spot wants to follow \none of them, but who will it be?"
     actionID: 0
     bgmAudioKey: 
     seAudioKey: 
@@ -2448,6 +2630,64 @@ MonoBehaviour:
   deactiveTextColor: {r: 1, g: 1, b: 1, a: 1}
   clickTimes: 0
   colorObject: {fileID: 0}
+--- !u!1 &332983571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 332983572}
+  - component: {fileID: 332983573}
+  m_Layer: 0
+  m_Name: 1_Selections
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &332983572
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332983571}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1786117316}
+  - {fileID: 1549221763}
+  m_Father: {fileID: 1236434693}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &332983573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332983571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec76e69a2907403fa5d1ca6ed3b973e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_Title: 
+  units:
+  - index: 0
+    targetNode: {fileID: 1786117317}
+    text: Get dinner
+    checkFlag: 0
+    flagName: 
+  - index: 1
+    targetNode: {fileID: 1549221764}
+    text: Find someone else
+    checkFlag: 0
+    flagName: 
+  position: {x: 0, y: 0, z: 0}
 --- !u!1 &347245264
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,6 +4493,64 @@ MonoBehaviour:
   voiceButton: {fileID: 0}
   prevButton: {fileID: 1004241270}
   nextButton: {fileID: 1457478053}
+--- !u!1 &575948345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 575948346}
+  - component: {fileID: 575948347}
+  m_Layer: 0
+  m_Name: 1_Selections
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &575948346
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 575948345}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 998172669}
+  - {fileID: 1003050620}
+  m_Father: {fileID: 1917248283}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &575948347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 575948345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec76e69a2907403fa5d1ca6ed3b973e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_Title: 
+  units:
+  - index: 0
+    targetNode: {fileID: 998172670}
+    text: Get a toy
+    checkFlag: 0
+    flagName: 
+  - index: 1
+    targetNode: {fileID: 1003050621}
+    text: Pick up the lego house
+    checkFlag: 0
+    flagName: 
+  position: {x: 0, y: 0, z: 0}
 --- !u!1 &579113962
 GameObject:
   m_ObjectHideFlags: 0
@@ -4492,6 +4790,50 @@ MonoBehaviour:
   - {fileID: 1752225984}
   - {fileID: 160098554}
   - {fileID: 1329891184}
+--- !u!1 &625910870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 625910871}
+  - component: {fileID: 625910872}
+  m_Layer: 0
+  m_Name: 4_Selected4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &625910871
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 625910870}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1917248283}
+  m_Father: {fileID: 1495522345}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &625910872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 625910870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &636645933
 GameObject:
   m_ObjectHideFlags: 0
@@ -4853,6 +5195,64 @@ MonoBehaviour:
   fadeColor: {r: 1, g: 1, b: 1, a: 0}
   eventReceiver: {fileID: 680517699}
   fadeSpeed: 1
+--- !u!1 &682034431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 682034432}
+  - component: {fileID: 682034433}
+  m_Layer: 0
+  m_Name: 1_Selections
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &682034432
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 682034431}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1004304748}
+  - {fileID: 30667981}
+  m_Father: {fileID: 761792173}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &682034433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 682034431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec76e69a2907403fa5d1ca6ed3b973e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_Title: 
+  units:
+  - index: 0
+    targetNode: {fileID: 1004304749}
+    text: No walk
+    checkFlag: 0
+    flagName: 
+  - index: 1
+    targetNode: {fileID: 30667982}
+    text: Walk
+    checkFlag: 0
+    flagName: 
+  position: {x: 0, y: 0, z: 0}
 --- !u!1 &693553779
 GameObject:
   m_ObjectHideFlags: 0
@@ -5242,6 +5642,132 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 707500235}
   m_Mesh: {fileID: 4300000, guid: d54e0c36f07844b66b9006ce145e33cf, type: 2}
+--- !u!1 &712848511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 712848512}
+  - component: {fileID: 712848513}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &712848512
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 712848511}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 225496231}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &712848513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 712848511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot lies down at James\u2019s feet and falls asleep."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "James smiles, then continues reading, enjoying \nSpot\u2019s company
+      for the night."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 2
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 2
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries:
+    - actorName: James
+      state: 
+      position: 0
+      withFade: 1
 --- !u!1 &731059995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5326,6 +5852,184 @@ Transform:
   m_Father: {fileID: 924353246}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &761792172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 761792173}
+  - component: {fileID: 761792174}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &761792173
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761792172}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 682034432}
+  m_Father: {fileID: 1323185515}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &761792174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761792172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 1
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries:
+    - actorName: Chris
+      state: 
+      position: 2
+      withFade: 1
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot walks downstairs to Chris\u2019s bedroom."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 'Chris is sitting on her bed with her best friend Meg,
+
+      listening to loud rock music.'
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 3
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Normally Chris takes Spot on walks at this time of the \nevening,
+      but she seems pretty happy to be hanging out \nwith Meg."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 4
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Should Spot hang out with Meg and Chris, or should he \nget her the
+      leash to remind her what time it is? Maybe \nMeg will come on the walk."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
 --- !u!1 &796997110
 GameObject:
   m_ObjectHideFlags: 0
@@ -5406,6 +6110,158 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &805541438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 805541439}
+  - component: {fileID: 805541440}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805541439
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 805541438}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1786117316}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &805541440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 805541438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot\u2019s hunger wins him over, so he walks up to Leah \nand slightly
+      nudges her legs with his nose"
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Leah looks at the clock and realized he must be hungry, \nso she
+      walks over to his food bowl and fills it with kibble."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Spot eats his dinner then curls up at Leah\u2019s feet as she \ncontinues
+      to make dinner. She\u2019s happy for the company."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 3
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 2
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries:
+    - actorName: Leah
+      state: 
+      position: 0
+      withFade: 1
 --- !u!1 &816917589
 GameObject:
   m_ObjectHideFlags: 0
@@ -6643,6 +7499,94 @@ MonoBehaviour:
   textDisplayEffect: {fileID: 0}
   textAfterEffect: {fileID: 0}
   blink: {fileID: 0}
+--- !u!1 &998172668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 998172669}
+  - component: {fileID: 998172670}
+  m_Layer: 0
+  m_Name: 1_Selected1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &998172669
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 998172668}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1512655156}
+  m_Father: {fileID: 575948346}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &998172670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 998172668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+--- !u!1 &1003050619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1003050620}
+  - component: {fileID: 1003050621}
+  m_Layer: 0
+  m_Name: 2_Selected2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1003050620
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1003050619}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1860103616}
+  m_Father: {fileID: 575948346}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1003050621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1003050619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &1004241270
 GameObject:
   m_ObjectHideFlags: 0
@@ -6752,6 +7696,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 128, y: 128, z: 1}
   m_Center: {x: 0, y: 0, z: -0.25}
+--- !u!1 &1004304747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1004304748}
+  - component: {fileID: 1004304749}
+  m_Layer: 0
+  m_Name: No walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1004304748
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004304747}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1807367482}
+  m_Father: {fileID: 682034432}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1004304749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1004304747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &1005629444
 GameObject:
   m_ObjectHideFlags: 0
@@ -8291,6 +9279,284 @@ Transform:
   m_Father: {fileID: 91582587}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1236434692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1236434693}
+  - component: {fileID: 1236434694}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1236434693
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236434692}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 332983572}
+  m_Father: {fileID: 2147228253}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1236434694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1236434692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 1
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 1
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries:
+    - actorName: Leah
+      state: 
+      position: 2
+      withFade: 1
+    exitActorEntries: []
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot walks over to the kitchen to find Leah, who \nis cooking dinner."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Leah looks really busy making dinner and Spot is \nstill worried
+      about her weird smell."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 3
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "At the same time, he is really hungry and that food \nsmells so good."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 4
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Should Spot beg her for food or leave her alone and \nbother someone
+      else?"
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+--- !u!1 &1242986582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1242986583}
+  - component: {fileID: 1242986584}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1242986583
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242986582}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1549221763}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1242986584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242986582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot decides to leave Leah alone. He turns out of the \nkitchen and
+      walks off to find someone else."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 2
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries:
+    - actorName: Leah
+      state: 
+      position: 0
+      withFade: 1
 --- !u!1 &1245858467
 GameObject:
   m_ObjectHideFlags: 0
@@ -8628,6 +9894,233 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!1 &1287383661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1287383662}
+  - component: {fileID: 1287383663}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1287383662
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287383661}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 30667981}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1287383663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287383661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot figures Chris just forgot what time it is and that \nhe should
+      get a leash to remind her. She always loves \ntheir walks so why would she want
+      to skip one?"
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Spot runs upstairs to get a leash and brings it back \nto Chris."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Chris grabs the leash and sighs. She turns off the \nmusic and tells
+      Meg she needs to take Spot on a walk."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 3
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Meg seems a little sad about this, but doesn\u2019t argue. \nMeg
+      packs up her things and heads home."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 4
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Chris takes Spot for a walk around the neighborhood. \nHe has a blast,
+      chasing squirrels and barking at \nother dogs."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 5
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "He\u2019s so excited that he doesn\u2019t notice that Chris is \nnot
+      her normal happy self on this walk."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 6
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 2
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries:
+    - actorName: Chris
+      state: 
+      position: 0
+      withFade: 1
 --- !u!1 &1293956488
 GameObject:
   m_ObjectHideFlags: 0
@@ -8783,6 +10276,50 @@ Transform:
   m_Father: {fileID: 1232856930}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1323185514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1323185515}
+  - component: {fileID: 1323185516}
+  m_Layer: 0
+  m_Name: 3_Selected3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1323185515
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1323185514}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 761792173}
+  m_Father: {fileID: 1495522345}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1323185516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1323185514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &1328284021
 GameObject:
   m_ObjectHideFlags: 0
@@ -10241,6 +11778,134 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 128, y: 128, z: 1}
   m_Center: {x: 0, y: 0, z: -0.25}
+--- !u!1 &1495251739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1495251740}
+  - component: {fileID: 1495251741}
+  m_Layer: 0
+  m_Name: 1_Selections
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495251740
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495251739}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 225496231}
+  - {fileID: 201528981}
+  m_Father: {fileID: 1706413593}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1495251741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495251739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec76e69a2907403fa5d1ca6ed3b973e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_Title: 
+  units:
+  - index: 0
+    targetNode: {fileID: 225496232}
+    text: Take a nap
+    checkFlag: 0
+    flagName: 
+  - index: 1
+    targetNode: {fileID: 201528982}
+    text: Get a toy
+    checkFlag: 0
+    flagName: 
+  position: {x: 0, y: 0, z: 0}
+--- !u!1 &1495522344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1495522345}
+  - component: {fileID: 1495522346}
+  m_Layer: 0
+  m_Name: 1_Selections
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1495522345
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495522344}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 62118150}
+  - {fileID: 2147228253}
+  - {fileID: 1323185515}
+  - {fileID: 625910871}
+  m_Father: {fileID: 245830799}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1495522346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495522344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec76e69a2907403fa5d1ca6ed3b973e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_Title: 
+  units:
+  - index: 0
+    targetNode: {fileID: 62118151}
+    text: James
+    checkFlag: 0
+    flagName: 
+  - index: 1
+    targetNode: {fileID: 2147228254}
+    text: Leah
+    checkFlag: 0
+    flagName: 
+  - index: 1
+    targetNode: {fileID: 1323185516}
+    text: Chris
+    checkFlag: 0
+    flagName: 
+  - index: 1
+    targetNode: {fileID: 625910872}
+    text: Ben
+    checkFlag: 0
+    flagName: 
+  position: {x: 0, y: 0, z: 0}
 --- !u!1 &1497782160
 GameObject:
   m_ObjectHideFlags: 0
@@ -10364,6 +12029,108 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!1 &1512655155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1512655156}
+  - component: {fileID: 1512655157}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1512655156
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1512655155}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 998172669}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1512655157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1512655155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot runs out of the room and finds a rope toy. \nHe brings it back
+      to Ben and they play tug-o-war \nwith the rope."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 2
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries:
+    - actorName: Ben
+      state: 
+      position: 0
+      withFade: 1
 --- !u!1 &1520997008
 GameObject:
   m_ObjectHideFlags: 0
@@ -10824,6 +12591,50 @@ MonoBehaviour:
   m_EnableVinoDebugLog: 0
   loadLevelAndClearBackLog: 1
   CURRENT: {fileID: 0}
+--- !u!1 &1549221762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1549221763}
+  - component: {fileID: 1549221764}
+  m_Layer: 0
+  m_Name: Find someone else
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549221763
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1549221762}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1242986583}
+  m_Father: {fileID: 332983572}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1549221764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1549221762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &1560198597
 GameObject:
   m_ObjectHideFlags: 0
@@ -11454,6 +13265,158 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!1 &1706413592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1706413593}
+  - component: {fileID: 1706413594}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1706413593
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706413592}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1495251740}
+  m_Father: {fileID: 62118150}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1706413594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706413592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 1
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries:
+    - actorName: James
+      state: 
+      position: 2
+      withFade: 1
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot walks over to James and Leah\u2019s bedroom. \nJames is sitting
+      at his desk reading a book."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Spot sits by James\u2019s feet and stares up at him \nexpectantly.
+      James pats Spot\u2019s head and goes back \nto reading."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 3
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: What does Spot want to do?
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
 --- !u!1 &1730272833
 GameObject:
   m_ObjectHideFlags: 0
@@ -12111,6 +14074,50 @@ MonoBehaviour:
   deactiveTextColor: {r: 1, g: 1, b: 1, a: 1}
   clickTimes: 0
   colorObject: {fileID: 0}
+--- !u!1 &1786117315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1786117316}
+  - component: {fileID: 1786117317}
+  m_Layer: 0
+  m_Name: Get dinner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786117316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1786117315}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 805541439}
+  m_Father: {fileID: 332983572}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1786117317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1786117315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
 --- !u!1 &1788255321
 GameObject:
   m_ObjectHideFlags: 0
@@ -12327,6 +14334,158 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!1 &1807367481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1807367482}
+  - component: {fileID: 1807367483}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1807367482
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807367481}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1004304748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1807367483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807367481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot decides to let Meg and Chris continue rocking out \nin Chris\u2019s
+      room. He can always go for a walk tomorrow."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Spot goes to lay down by the bed. Chris sees him walk \nin and invites
+      him up to hang out with them."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Spot jumps up on the bed and lays between them. \nMeg and Chris pet
+      him and go back to chatting with \neach other and enjoying the music."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 3
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 2
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries:
+    - actorName: Chris
+      state: 
+      position: 0
+      withFade: 1
 --- !u!1 &1829072464
 GameObject:
   m_ObjectHideFlags: 0
@@ -12479,6 +14638,183 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1829160719}
   m_Mesh: {fileID: 4300000, guid: d54e0c36f07844b66b9006ce145e33cf, type: 2}
+--- !u!1 &1860103615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1860103616}
+  - component: {fileID: 1860103617}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1860103616
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1860103615}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1003050620}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1860103617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1860103615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot carefully picks up the house Ben just built. \nHe\u2019s picked
+      up things like this before and has learned \nif he\u2019s not careful he might
+      break it."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Ben shrieks with laughter and chases Spot throughout \nthe house
+      trying to get the house back."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "As they go through each room, they run into each \nfamily member. "
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 3
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "James tries to help Ben grab Spot, Leah laughs, \nand Chris tries
+      to hold Ben back to give Spot a \nhead start to the next room."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 4
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 2
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries:
+    - actorName: Ben
+      state: 
+      position: 0
+      withFade: 1
 --- !u!1 &1877134039
 GameObject:
   m_ObjectHideFlags: 0
@@ -12904,6 +15240,184 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
+--- !u!1 &1917248282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1917248283}
+  - component: {fileID: 1917248284}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1917248283
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1917248282}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 575948346}
+  m_Father: {fileID: 625910871}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1917248284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1917248282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 1
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 1
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries:
+    - actorName: Ben
+      state: 
+      position: 2
+      withFade: 1
+    exitActorEntries: []
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot runs upstairs to Ben\u2019s room. Ben is on the floor \nbuilding
+      a house with legos."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "When Spot runs into the room, Ben immediately stands \nup and starts
+      playing with Spot."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 3
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Spot is incredibly excited and isn\u2019t sure what type of \ngames
+      they should play."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 0
+    dialogID: 4
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Should Spot grab one of his toys or grab the toys Ben \nwas playing
+      with?"
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
 --- !u!1 &1917389270
 GameObject:
   m_ObjectHideFlags: 0
@@ -14022,6 +16536,182 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventReceiver: {fileID: 2084833457}
+--- !u!1 &2102738398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2102738399}
+  - component: {fileID: 2102738400}
+  m_Layer: 0
+  m_Name: 2_Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2102738399
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102738398}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 201528981}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2102738400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102738398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f14217f9018d42918c94c50b7d930c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
+  m_NameTextBox: {fileID: 1119235681}
+  m_ViNoTextBox: {fileID: 1877134040}
+  m_NameHndName: TextBox_Name
+  m_DialogHndName: TextBox
+  xmlData: {fileID: 0}
+  dlgDataList:
+  - active: 1
+    dialogID: 0
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: name
+    dialogText: "Spot runs over and grabs a nearby ball. He drops \nthe toy at James\u2019s
+      feet."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 1
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "James sighs, puts down his book, and grabs the ball. \nThey start
+      playing fetch."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 2
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "Spot is elated that James and him are having a blast\n playing together."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 3
+    show: 0
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: "James is happy to spend time with Spot but really \nwanted to read
+      that book."
+    actionID: 0
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries: []
+  - active: 1
+    dialogID: 4
+    show: 1
+    isName: 0
+    isBGM: 0
+    isSE: 0
+    isVoice: 0
+    isAnim: 0
+    isClearMessageAfter: 1
+    textBoxID: 0
+    nameText: 
+    dialogText: 
+    actionID: 2
+    bgmAudioKey: 
+    seAudioKey: 
+    voiceAudioKey: 
+    bgmAudioID: 0
+    seAudioID: 0
+    voiceAudioID: 0
+    scene:
+      sceneName: 
+      withFade: 0
+    enterActorEntries: []
+    exitActorEntries:
+    - actorName: James
+      state: 
+      position: 0
+      withFade: 1
 --- !u!1 &2112806846
 GameObject:
   m_ObjectHideFlags: 0
@@ -14463,3 +17153,47 @@ MonoBehaviour:
   spriteFactory: {fileID: 11400000, guid: 611eca7ae1e154efc858ca1a45192fda, type: 2}
   saveMethod: 1
   destroyChildrenOnLoad: 1
+--- !u!1 &2147228252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2147228253}
+  - component: {fileID: 2147228254}
+  m_Layer: 0
+  m_Name: 2_Selected2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2147228253
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2147228252}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1236434693}
+  m_Father: {fileID: 1495522345}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2147228254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2147228252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad46eb4f1a904802ad2b620f8ca1de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startAndActive: 1
+  useAlreadyCompiledCode: 0
+  m_CompiledInternalCodeAsset: {fileID: 0}
