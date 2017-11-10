@@ -1,0 +1,43 @@
+﻿@call file=wide/libs/utils
+[bg_new name="level1.1" storage="level1.1"]
+[bg_new name="level1.2" storage="level1.2.resize"]
+[bg_new name="level1.3" storage="level1.3.resize"]
+
+;メッセージ表示
+[showmessage]
+[call file=wide/system target="*system_setting_buttons"]
+[text_new name=_sp_chara_name layer=ui x="-168" y=-108.5 val="" color="DDFF00" fontsize=16 anchor="MiddleLeft"]
+[text_show name="_sp_chara_name"] 
+
+
+;---------------キャラ定義
+
+@tag_default tag="chara"
+[chara_new name="james" storage="resize_james_profile" jname="James" scale=2 jcolor=FF77FF]
+[chara_new name="leah" storage="resize_leah_profile" jname="Leah" scale=2 jcolor=FF77FF]
+[chara_new name="chris" storage="resize_chris_profile" jname="Chris" scale=2 jcolor=FF77FF]
+[chara_new name="ben" storage="resize_ben_profile" jname="Ben" scale=2 jcolor=FF77FF]
+@reset_tag_default
+
+;ゆうこの表情登録
+;chara_face name="yuko" face="angry" storage=chara_a ]
+;[chara_face name="yuko" face="komaru" storage=chara_k ]
+;[chara_face name="yuko" face="warau" storage=chara_w ]
+
+;麻衣の表情登録
+;[chara_face name="mai" face="angry" storage=kiri_a ]
+;[chara_face name="mai" face="komaru" storage=kiri_k ]
+
+
+@chara_pos name="james" x=0 y=-0.7
+@chara_pos name="leah" x=0 y=-0.7
+@chara_pos name="chris" x=0 y=-0.7
+@chara_pos name="ben" x=-5 y=-0.7
+
+;@show name=yuko
+
+[playbgm wait=false time=1 storage="music"]
+
+@jump file=wide/level1 target=*level1_begin
+
+*level1_return

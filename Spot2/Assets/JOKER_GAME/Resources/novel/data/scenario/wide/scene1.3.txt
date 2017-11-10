@@ -1,0 +1,10 @@
+﻿*scene1.3_begin
+[bg_show name="level1.3"]
+#Spot
+[show name="ben"]
+in scene 1.3
+
+[s]
+
+@jump file="wide/level1" target=*scene1.3_return
+

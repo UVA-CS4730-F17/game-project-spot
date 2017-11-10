@@ -1,0 +1,11 @@
+﻿*level1_begin
+@jump file=wide/scene1 target=*scene1.1_begin
+
+*scene1.1_return
+@jump file=wide/scene1.2 target=*scene1.2_begin
+
+*scene1.2_return
+@jump file=wide/scene1.3 target=*scene1.3_begin
+
+
+*scene1.3_return
