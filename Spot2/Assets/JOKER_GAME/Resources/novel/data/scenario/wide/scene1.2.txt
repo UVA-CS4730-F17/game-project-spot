@@ -1,11 +1,11 @@
 ﻿*scene1.2_begin
-[bg_hide name="level1.1"]
 [bg_show name="level1.2"]
 
 #Spot
-“Spot hears the family get up from the table to get ready for the day before leaving for work and school.”
-“He walks back into the kitchen hoping to find scraps on the floor, and finds Leah cleaning up the kitchen.” [p]
-“Spot walks over to Leah and notices a strange smell.”
+“Spot hears the family get up from the table to get ready for the day before leaving for work and school.” “He walks back into the kitchen hoping to find scraps on the floor, and finds Leah cleaning up the kitchen.” [p]
+“Spot walks over to Leah and notices a strange smell.” 
+
+[autosave]
 
 [select_new text="Sniff" target=*sniffed.1]
 
@@ -13,7 +13,7 @@
 [s]
 
 *sniffed.1
-“Spot sniffs Leah and realizes this is a smell he has never encountered before and it smells BAD.” 
+“Spot sniffs Leah and realizes this is a smell he has never encountered before and it smells BAD.” [p]
 “Should he bark to let her and the rest of the family know?” [p]
 
 [select_new text="Bark" target=*select_a.1]
@@ -30,16 +30,17 @@
 “While Leah washes her hands in the sink, the rest of the family glares at Spot. Spot puts his tail in between his legs and walks into the living room to lay down. He does not understand why they did not understand his concern.” [p]
 “As he is leaving the room, Leah picks up the phone and calls someone. The rest of the family goes back to getting ready for the rest of the day.” [p]
 
-@jump target=*a_common
+@jump target=*scene1.2_end
 
 *select_a.2
 #Spot
 “Spot decides he is probably overreacting and that even if this smell is not great, it’s nothing to worry about.”
 “Spot walks back to the living room to take a nap.” [p]
 
-@jump target=*a_common
+@jump target=*scene1.2_end
 
-*a_common
+*scene1.2_end
+[bg_hide name="level1.2"]
 
 @jump file="wide/level1" target=*scene1.2_return
 

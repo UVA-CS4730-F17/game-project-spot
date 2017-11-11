@@ -55,12 +55,12 @@
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\utils.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.2.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\utils.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\save.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\title.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\save.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\title.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\system.txt" />
-     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\system.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\menu.txt" />
