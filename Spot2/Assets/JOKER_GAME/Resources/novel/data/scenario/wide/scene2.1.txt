@@ -200,6 +200,6 @@ He walks over to the living room to chew on a stick. [p]
 ;[bg_hide name="level2.1"]
 [bg_hide name="level1.1"]
 
-@jump file=wide/level2 target=*scene2.1 return
+@jump file=wide/level2 target=*scene2.1_return
 
 [s]
