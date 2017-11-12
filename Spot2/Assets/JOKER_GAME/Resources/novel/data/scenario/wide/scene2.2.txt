@@ -1,0 +1,49 @@
+*scene2.2_begin
+
+;[bg_show name="level2.2"]
+[bg_show name="level1.2"]
+
+#Spot
+After breakfast, the family leaves the house for work and school. [p]
+Spot spends the morning napping in the living room, waiting for them to return. [p]
+James’s car pulls into the driveway a few hours earlier than usual. [p]
+Spot runs to the door and is surprised to see Leah and James come inside. [p]
+He greets them eagerly and notices they both smell odd, like the vet’s office but without the smell of other dogs. [p]
+He also notices that while they both smiled and pet him, they were not as happy or excited as he had expected to be. [p]
+In fact, they both seem a little sad. Leah is even crying a little. [p]
+Spot wants to help cheer them up, so he decides to bring them something. [p]
+What should he get? [p]
+
+[autosave]
+
+[select_new text="Box_of_tissues" target=*select_a1]
+[select_new text="Rope_toy" target=*select_a2]
+
+[select_show]
+[s]
+
+*select_a1
+#Spot
+Spot walks into the living room and grabs a box of tissues off one of the side tables. [p]
+He walks back to Leah and James and offers up the box. [p]
+James appreciatively grabs the box and hands Leah a tissue, who uses it to dry her eyes. [p]
+James rubs Spot’s head, and the three of them walk into the living room, where James and Leah spend the afternoon talking and watching tv. [p]
+@jump target=*scene2.2_end
+
+*select_a2
+#Spot
+Spot walks into the living room and picks up his rope toy. [p]
+He trots back over to James and Leah and drops at their feet expectantly. [p]
+James shakes his head and says, ‘Not right now, buddy.’ He then walks into the living room with Leah. [p]
+Spot is puzzled over the fact that his attempt didn’t work. [p]
+If he had been sad, the chance to play would’ve instantly cheered him up. [p]
+Disappointed in himself, he walks into the living room and naps near Leah and James, who spend the afternoon talking and watching tv. [p]
+@jump target=*scene2.2_end
+
+*scene2.2_end
+;[bg_hide name="level2.2"]
+[bg_hide name="level1.2"]
+
+@jump file=wide/level2 target=*scene2.2_return
+
+[s]
