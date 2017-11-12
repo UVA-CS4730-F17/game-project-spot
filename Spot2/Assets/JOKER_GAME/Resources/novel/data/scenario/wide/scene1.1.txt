@@ -5,7 +5,8 @@
 #Spot
 Spot wakes up to the sound of footsteps in the Osterheim family home. [p]
 He runs to the kitchen to find his family starting their day. [p]
-James is drinking coffee at the head of the table. Leah is cooking bacon on the stove. Chris and Ben are sitting at the end of the table eating cereal. [p]
+James is drinking coffee at the head of the table. Leah is cooking bacon on the stove. [p]
+Chris and Ben are sitting at the end of the table eating cereal. [p]
 Who would Spot like to greet?
 
 [autosave]
@@ -35,7 +36,7 @@ Spot understand the words ‘get’ and ‘paper.’ What would Spot like to do?
 *select_a1.1
 #Spot
 Spot trots over to the front door and picks up the newspaper. He brings it over to James, who grabs it. [p]
-He smiles at Spot, says ‘Good Boy!’, and pats Spot on the head, who wags his tail in satisfaction, then walks over to the living room to chew on the stick.[p]
+He smiles at Spot, says ‘Good Boy!’, and pats Spot on the head, who wags his tail in satisfaction, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
 @jump target=*scene1.1_end
 
@@ -54,25 +55,29 @@ Spot whimpers in disappointment, then walks
 
 *select_a1.3
 #Spot
-“Spot trots over to the hat rack by the front door. He looks at all of the objects hanging off the rack, then jumps up and pulls down the hat because he thinks James’s head looks cold.” [p]
-“He brings it over to James, who grabs it.” [p]
-“He frowns a little, says ‘No,’ and gets up to put away the hat. Spot whimpers in disappointment, then walks over to the living room to chew on the stick.” [p]
+Spot trots over to the hat rack by the front door. [p]
+He looks at all of the objects hanging off the rack, then jumps up and pulls down the hat because he thinks James’s head looks cold. [p]
+He brings it over to James, who grabs it. [p]
+He frowns a little, says ‘No,’ and gets up to put away the hat. [p]
+Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
 @jump target=*scene1.1_end
 
 *select_a1.4
 #Spot
-“Spot trots over to the hat rack by the front door. He looks at all of the objects hanging off the rack, then jumps up and pulls down the jacket because he thinks James’s looks cold.” [p]
-“He brings it over to James, who grabs it.” [p]
-“He frowns a little, says ‘No,’ and gets up to put away the jacket. Spot whimpers in disappointment, then walks over to the living room to chew on the stick.” [p]
+Spot trots over to the hat rack by the front door. [p] 
+He looks at all of the objects hanging off the rack, then jumps up and pulls down the jacket because he thinks James’s looks cold. [p]
+He brings it over to James, who grabs it. [p]
+He frowns a little, says ‘No,’ and gets up to put away the jacket. [p] 
+Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
 @jump target=*scene1.1_end
 
 *select_a2
 [show name="leah"]
-“Spot runs up to Leah, hoping to get one of the pieces of bacon.”
-“Leah looks down at Spot, pats his head, and says, ‘Sit!’”
-“What would Spot like to do?” [p]
+Spot runs up to Leah, hoping to get one of the pieces of bacon. [p]
+Leah looks down at Spot, pats his head, and says, ‘Sit!’ [p]
+What would Spot like to do? [p]
 
 [select_new text="Fetch Toy" target=*select_a2.2 ]
 [select_new text="Shake" target=*select_a2.3 ]
@@ -85,43 +90,46 @@ Spot whimpers in disappointment, then walks
 
 *select_a2.1
 #Spot
-“Spot sits down.”
-“Leah smiles, says, ‘Good Boy!’ She then tosses Spot a piece of bacon.”
-“Spot catches the bacon and wags his tail. Spot then walks over to the living room to chew on a stick.” [p]
+Spot sits down. [p]
+Leah smiles, says, ‘Good Boy!’ She then tosses Spot a piece of bacon. [p]
+Spot catches the bacon and wags his tail. [p] 
+Spot then walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
 @jump target=*scene1.1_end
 
 *select_a2.2
 #Spot
-“Spot starts running towards the living room to find a toy.” 
-“He grabs the first thing he can find, which is a stick.” 
-“He brings the toy over to Leah and places it at her feet.” [p]
-“Leah shakes her head and speaks to Chris. Chris comes over and pats Spot on the head. She then picks up the stick and takes it back to the living room.” 
-“Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on the stick.” [p]
+Spot starts running towards the living room to find a toy. [p]
+He grabs the first thing he can find, which is a stick. [p]
+He brings the toy over to Leah and places it at her feet. [p]
+Leah shakes her head and speaks to Chris. [p] 
+Chris comes over and pats Spot on the head. [p] 
+She then picks up the stick and takes it back to the living room. [p] 
+Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on the stick. [p]
 [hide name="leah"]
 @jump target=*scene1.1_end
 
 *select_a2.3
 #Spot
-“Spot holds out one of his paws.” 
-“Leah looks at Spot and shakes her head. She goes back to making bacon.” [p]
-“Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick.” [p]
+Spot holds out one of his paws. [p]
+Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
+Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
 @jump target=*scene1.1_end
 
 *select_a2.4
 #Spot
-“Spot lies down on the ground.”
-“Leah looks at Spot and shakes her head. She goes back to making bacon.” [p]
-“Spot realizes that he is not getting a piece and walks over to the living room to chew on a stick.” [p]
+Spot lies down on the ground. [p]
+Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
+Spot realizes that he is not getting a piece and walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
 @jump target=*scene1.1_end
 
 *select_a2.5
 #Spot
-“Spot drops to the ground and rolls over. He stands back up and stares expectantly” 
-“Leah looks at Spot and shakes her head. She goes back to making bacon.” [p]
-“Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick.” [p]
+Spot drops to the ground and rolls over. He stands back up and stares expectantly. [p]
+Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
+Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
 @jump target=*scene1.1_end
 
@@ -129,9 +137,9 @@ Spot whimpers in disappointment, then walks
 [show name="chris"]
 [show name="ben"]
 #Spot
-“Spot runs over to Chris and Ben. Chris is laughing at Ben, who is dancing on his chair.” 
-“Chris looks over at Spot and says something to him. Spot understands the words ‘get’ and ‘toy.’” 
-“What will Spot get?” [p]
+Spot runs over to Chris and Ben. Chris is laughing at Ben, who is dancing on his chair. [p] 
+Chris looks over at Spot and says something to him. Spot understands the words ‘get’ and ‘toy.’ [p] 
+What will Spot get? [p]
 
 [select_new text="Stick" target=*select_a3.2 ]
 [select_new text="Tennis.Ball" target=*select_a3.1 ]
@@ -144,41 +152,44 @@ Spot whimpers in disappointment, then walks
 
 *select_a3.1
 #Spot
-“Spot runs to the living room and grabs a tennis ball that is laying on the floor.” 
-“Spot runs back to Chris, who grabs the tennis ball from his mouth.” [p]
-“Chris and Ben get up from the table and take turns tossing the ball for Spot to retrieve.” 
-“Once they finish playing, Spot walks over to the living room to chew on a stick.” [p]
+Spot runs to the living room and grabs a tennis ball that is laying on the floor. [p] 
+Spot runs back to Chris, who grabs the tennis ball from his mouth. [p]
+Chris and Ben get up from the table and take turns tossing the ball for Spot to retrieve. [p] 
+Once they finish playing, Spot walks over to the living room to chew on a stick. [p]
 [hide name="chris"]
 [hide name="ben"]
 @jump target=*scene1.1_end
 
 *select_a3.2
 #Spot 
-“Spot runs to the living room and grabs a stick that is laying on the floor.” 
-“Spot runs back to Chris, who grabs the stick from his mouth.” [p]
-“Chris and Ben get up from the table and take turns tossing the stick for Spot to retrieve.” 
-“Once they finish playing, Spot takes the stick over to the living room to chew on it in peace.” [p]
+Spot runs to the living room and grabs a stick that is laying on the floor. [p]
+Spot runs back to Chris, who grabs the stick from his mouth. [p]
+Chris and Ben get up from the table and take turns tossing the stick for Spot to retrieve. [p]
+Once they finish playing, Spot takes the stick over to the living room to chew on it in peace. [p]
 [hide name="chris"]
 [hide name="ben"]
 @jump target=*scene1.1_end
 
 *select_a3.3
 #Spot
-“Spot runs to the living room and grabs a piece of rope that is laying on the floor.” 
-“Spot runs back to Chris, who tries to pull the rope from his mouth. [p]
-Spot refuses to let go, and they start playing tug-of-war.” 
-“Ben gets up from the table and comes over to Chris and Spot. He cheers both of them on as they continue to tug on the rope.” [p]
-“Once they finish playing, Spot walks over to the living room to chew on a stick.” [p]
+Spot runs to the living room and grabs a piece of rope that is laying on the floor. [p]
+Spot runs back to Chris, who tries to pull the rope from his mouth. [p]
+Spot refuses to let go, and they start playing tug-of-war. [p]
+Ben gets up from the table and comes over to Chris and Spot. [p] 
+He cheers both of them on as they continue to tug on the rope. [p]
+Once they finish playing, Spot walks over to the living room to chew on a stick. [p]
 [hide name="chris"]
 [hide name="ben"]
 @jump target=*scene1.1_end
 
 *select_a3.4
 #Spot
-“Spot runs over to the front door and grabs a backpack lying on the ground. It’s too heavy for him to pick up, so he drags it over to the table.” 
-“When Spot finally gets back to Chris with the bag, its contents spill out over the floor.” [p]
-“Chris groans and says ‘Bad Dog!’”
-“Chris starts cleaning up her bag while Spot walks off with his tail between his legs. He walks over to the living room to chew on a stick.” [p]
+Spot runs over to the front door and grabs a backpack lying on the ground. [p] 
+It’s too heavy for him to pick up, so he drags it over to the table. [p] 
+When Spot finally gets back to Chris with the bag, its contents spill out over the floor. [p]
+Chris groans and says ‘Bad Dog!’ [p]
+Chris starts cleaning up her bag while Spot walks off with his tail between his legs. [p]
+He walks over to the living room to chew on a stick. [p]
 [hide name="chris"]
 [hide name="ben"]
 @jump target=*scene1.1_end
