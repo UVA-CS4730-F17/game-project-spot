@@ -1,0 +1,49 @@
+*scene4.2_begin
+
+;change background later
+[bg_show name="level1.2"]
+
+#Spot
+The family leaves the house to go to work and school. At this point Spot no longer expects them to say goodbye to him before leaving; it seems like it’s been years since they’ve done it. [p] 
+Spot sits by the door all day and waits for them to come back. [p]
+Everyone comes home at their normal time except James. Every so often someone comes over to the door to check to see if James is back yet. [p]
+Dinnertime comes and still no James. Leah tries to call him but gets no answer. Chris and Leah worry over dinner and wonder when he will be home. [p]
+An hour later James stumbles through the door, smelling strongly of alcohol. The entire family comes to the front door to greet him and are shocked by his appearance. [p]
+Ben holds onto his mother as the two of them cry and watch Chris begin to berate her father. Chris yells at James asking where he’s been and why didn’t he call, telling him they had been worried sick. [p]
+James tries to respond but Chris won’t let him get a word in, just continues to yell at him. [p]
+Spot is horrified that everyone is so unhappy and wants to help, but he doesn’t know what to do. Should he try to break up the fight or focus on comforting the crying Ben and Leah? [p]
+
+[autosave]
+
+[select_new text="Break.up.fight" target=*select_a1 ]
+[select_new text="Comfort.Ben.and.Leah" target=*select_a2 ]
+
+[select_show sound=click ]
+
+[s]
+
+*select_a1
+#Spot
+Spot runs up to Chris and James and wedges himself between them. He starts barking, causing the two of them to stop and focus on Spot. [p]
+Chris leans down to Spot to pet him and try to get him to stop barking. [p]
+In the meantime, Leah walks over to her husband and leads him into the kitchen to get him some water and let him sit down. Ben walks over to Chris and Spot and wraps both of them in a hug. [p]
+
+@jump target=*scene4.2_end
+
+*select_a2
+#Spot
+Spot walks over to Ben and Leah and nudges them with his head. The two of them pat Spot and walk into the living room while Chris continues to yell at her father. [p]
+Leah turns on the TV and the three of them cuddle for a bit, appreciating each other’s company. [p]
+After a while the yelling in the other room stops and Chris storms downstairs, slamming her door behind her. James walks into the room and Leah takes him into the kitchen to get him some water. [p]
+Ben and Spot remain in the living room and watch TV together. [p]
+
+@jump target=*scene4.2_end
+
+*scene4.2_end
+
+;change background later
+[bg_hide name="level1.2"]
+
+@jump file=wide/level4 target=*scene4.2_return
+
+[s]
