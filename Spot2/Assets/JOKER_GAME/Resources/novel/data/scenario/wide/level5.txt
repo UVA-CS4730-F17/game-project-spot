@@ -1,0 +1,11 @@
+*level5_begin
+@jump file=wide/scene5.1 target=*scene5.1_begin
+
+*scene5.1_return
+@jump file=wide/scene5.2 target=*scene5.2_begin
+
+*scene 5.2_return
+@jump file=wide/scene5.3 target=*scene.5.3_begin
+
+*scene5.3_return
+@jump file=wide/master target=*level5_return

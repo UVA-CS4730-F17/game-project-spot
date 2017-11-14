@@ -1,0 +1,46 @@
+*scene5.2_begin
+
+;[bg_show name="level5.2"]
+[bg_show name="level1.2"]
+
+#Spot
+James, Chris, and Ben leave the house to go to work and school. [p]
+Leah has been staying home during the day lately, spending her days in bed or on the couch. [p]
+Spot lays by the couch and watches tv with her. [p]
+After the two of them hang out on the couch for a few hours, Leah stands up to get a glass of water in the kitchen. Spot follows her. [p]
+As she enters the kitchen, she starts coughing heavily. Her breaths between coughs are thin rasps. [p]
+She takes a few steps towards a chair to sit in, but trips and falls to the ground. [p]
+Spot runs over to her. She’s still conscious, but is crying and clutching her arm in pain. She cannot get up. [p]
+Spot knows he needs to help but isn’t sure what he should do. [p]
+He knows the family grabs the box with the plus sign on it whenever someone gets hurt. [p]
+He also knows sometimes they speak into the small rectangular boxes to get advice when dealing with these sort of things. [p]
+What should Spot grab? [p]
+
+[select_new text="First_aid_kit" target=*select_a1 ]
+[select_new text="Leah's_Phone" target=*select_a2 ]
+
+[select_show]
+[s]
+
+*select_a1
+Spot runs over to the counter and grabs the box with the plus on it. [p]
+He quickly brings it over to Leah, who grabs it gratefully. [p]
+Spot watches Leah open the box and use a roll of elastic bandage to create a makeshift slip for her arm. [p]
+She slowly stands up, using Spot as a balance. Once she’s on her feet, she walks over to her phone and calls James. [p]
+Ten minutes later James is back at the house. He helps Leah into his car and they leave for the hospital. [p]
+Spot is happy that James was able to get her, but has a nagging feeling that something is still off. [p]
+@jump target=*scene5.2_end
+
+*select_a2
+Spot runs back into the living room and grabs the phone off the couch Leah had been laying on. [p]
+He quickly brings it over to Leah, who grabs it gratefully, then uses it to call James. [p]
+Ten minutes later James is back at the house. He helps Leah up from the ground and walks her to his car. They leave for the hospital. [p] 
+Spot is happy that James was able to get her, but has a nagging feeling that something is still off. [p]
+@jump target=*scene5.2_end
+
+*scene5.2_end
+;[bg_hide name="level5.2"]
+[bg_hide name="level1.2"]
+
+@jump file=wide/level5 target=*scene5.2_return
+

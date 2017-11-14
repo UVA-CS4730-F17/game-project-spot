@@ -53,27 +53,38 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\Exporter.cs" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\utils.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene3.2.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene5.3.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.2.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level4.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\utils.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level3.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene4.1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\save.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene2.3.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\title.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene2.1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\save.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene5.1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\title.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\system.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level2.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene2.2.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\system.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene5.2.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\menu.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\first.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene3.3.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\master.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\libs\menu.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene3.1.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene4.2.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.3.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\tall\scene1.txt" />
      <None Include="Assets\JOKER_GAME\Resources\novel\data\config\config.txt" />
+     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level5.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
