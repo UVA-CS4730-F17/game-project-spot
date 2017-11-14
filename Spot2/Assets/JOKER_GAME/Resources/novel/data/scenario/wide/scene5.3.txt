@@ -1,7 +1,7 @@
 *scene5.3_begin
 
 ;[bg_show name="level5.3"]
-[bg_show name="level1.3"]
+[bg_show name="level1.1"]
 
 #Spot
 A few hours later, Chris and Ben come home. Spot greets them, then follows Chris around the house as she looks for Leah. [p]
@@ -36,7 +36,7 @@ Should he try to get James to put down the bottle or try to comfort him by nuzzl
 [select_new text="Knock_down_bottle" target=*select_a1.1 ]
 [select_new text="Comfort_James" target=*select_a1.2 ]
 
-[select show]
+[select_show]
 [s]
 
 *select_a1.1
@@ -71,7 +71,7 @@ He could try to comfort her directly, or he could bring her his favorite toy, si
 [select_new text="Jump_on_bed" target=*select_a2.1 ]
 [select_new text="Bring her toy" target=*select_a2.2 ]
 
-[select show]
+[select_show]
 [s]
 
 *select_a2.1
@@ -83,7 +83,7 @@ After a while her tears subside, and the two of them lay next to each other for 
 [hide name="chris"]
 @jump target=*scene5.3_end
 
-*select_a2.1
+*select_a2.2
 #Spot
 Spot runs upstairs and grabs his rope toy. He quickly brings it downstairs and presents it to Chris. [p]
 Chris groans and throws the toy out of the room. As Spot runs to fetch it, she closes the door behind her. [p]
@@ -102,7 +102,7 @@ He could try to comfort him directly, or he could bring him his favorite toy, si
 [select_new text="Jump__on_bed" target=*select_a3.1 ]
 [select_new text="Bring_him_toy" target=*select_a3.2 ]
 
-[select show]
+[select_show]
 [s]
 
 *select_a3.1
@@ -111,7 +111,7 @@ Spot walks into the room and jumps on the bed. Ben is surprised by this and shov
 Spot is sad that Ben clearly does not want his company. [p]
 He goes back downstairs and lays by the door, hoping Leah will come home soon and fix everything. [p]
 [hide name="ben"]
-@jump target=*scene5.3
+@jump target=*scene5.3_end
 
 *select_a3.2
 #Spot
@@ -120,11 +120,11 @@ Ben smiles and grabs it from him. The two start playing fetch. [p]
 After a few throws, Ben calls Spot over and hugs him. [p]
 The two enjoy each other’s company and spend the rest of the night in Ben’s room. [p]
 [hide name="ben"]
-@jump target=*scene5.3
+@jump target=*scene5.3_end
 
-*scene5.3
+*scene5.3_end
 ;[bg_hide name="level5.3"]
-[bg_hide name="level1.3"]
+[bg_hide name="level1.1"]
 
 @jump file=wide/level5 target=*scene5.3_return
 

@@ -22,3 +22,25 @@ What should Spot grab? [p]
 [select_show]
 [s]
 
+*select_a1
+Spot runs over to the counter and grabs the box with the plus on it. [p]
+He quickly brings it over to Leah, who grabs it gratefully. [p]
+Spot watches Leah open the box and use a roll of elastic bandage to create a makeshift slip for her arm. [p]
+She slowly stands up, using Spot as a balance. Once she’s on her feet, she walks over to her phone and calls James. [p]
+Ten minutes later James is back at the house. He helps Leah into his car and they leave for the hospital. [p]
+Spot is happy that James was able to get her, but has a nagging feeling that something is still off. [p]
+@jump target=*scene5.2_end
+
+*select_a2
+Spot runs back into the living room and grabs the phone off the couch Leah had been laying on. [p]
+He quickly brings it over to Leah, who grabs it gratefully, then uses it to call James. [p]
+Ten minutes later James is back at the house. He helps Leah up from the ground and walks her to his car. They leave for the hospital. [p] 
+Spot is happy that James was able to get her, but has a nagging feeling that something is still off. [p]
+@jump target=*scene5.2_end
+
+*scene5.2_end
+;[bg_hide name="level5.2"]
+[bg_hide name="level1.2"]
+
+@jump file=wide/level5 target=*scene5.2_return
+

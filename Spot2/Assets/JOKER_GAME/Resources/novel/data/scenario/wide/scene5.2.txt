@@ -17,7 +17,7 @@ He also knows sometimes they speak into the small rectangular boxes to get advic
 What should Spot grab? [p]
 
 [select_new text="First_aid_kit" target=*select_a1 ]
-[select_new text="Leah's_Phone" target=*select_a2 ]
+[select_new text="Phone" target=*select_a2 ]
 
 [select_show]
 [s]

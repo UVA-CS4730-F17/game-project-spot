@@ -1,1 +1,131 @@
 *scene5.3_begin
+
+;[bg_show name="level5.3"]
+[bg_show name="level1.3"]
+
+#Spot
+A few hours later, Chris and Ben come home. Spot greets them, then follows Chris around the house as she looks for Leah. [p]
+When Chris can’t find her, she turns to Spot and asks, ‘Where’s mom?’ [p]
+Spot walks towards the front door and points with his nose. [p]
+Chris interprets this as Leah is not in the house and pulls out her phone. [p]
+She talks to someone on the phone, then hangs up. [p]
+Chris grabs Ben and brings him to the car. Spot watches them leave and feels concerned. [p]
+Chris had grown visibly upset as she talked on the phone, and had quickly ushered Ben into the car. [p]
+Spot hopes that everything is ok, and sits by the door waiting for their return. [p]
+Several hours pass. Spot grows hungry, but no one is there to feed him, so he continues to sit by the door. [p]
+A few hours later, James, Chris, and Ben finally come home. Leah is not with them. [p]
+Spot greets the three of them, but they barely notice him. [p]
+Chris walks into the kitchen and quickly pours dog food into Spot’s bowl, then goes down to her room. [p]
+Spot quickly scarfs down his food, then goes to find one of the family members. Who should he interact with? [p]
+
+[select_new text="James" target=*select_a1 ]
+[select_new text="Chris" target=*select_a2 ]
+[select_new text="Ben" target=*select_a3
+
+[select_show]
+[s]
+
+*select_a1
+[show name="james"]
+#Spot
+Spot walks upstairs to James and Leah’s room. [p]
+James is sitting at the desk, drinking straight from a bottle of amber liquor. [p]
+Spot can tell James is not in a good state, but isn’t sure what he should do to help. [p]
+Should he try to get James to put down the bottle or try to comfort him by nuzzling James and letting him know he is there for him. [p]
+
+[select_new text="Knock_down_bottle" target=*select_a1.1 ]
+[select_new text="Comfort_James" target=*select_a1.2 ]
+
+[select show]
+[s]
+
+*select_a1.1
+#Spot
+Spot jumps up onto James’s lap, causing him to drop the bottle in surprise. [p]
+The bottle falls to the floor and shatters, spilling the liquor onto the floor. [p]
+James yells, ‘What the h***! Bad dog!’ He leaves the room to find a rag he can use to clean up the liquid. [p]
+Spot feels awful about upsetting James and walks out of the room with his tail between his legs. [p]
+An hour later, James’s head has cleared. [p]
+He feels bad for yelling at Spot, so he goes to find him and comfort him as an apology for yelling him. [p]
+James finds Spot in the living room and hugs him. [p]
+Spot feels a little better, but is still upset about breaking the bottle. [p]
+[hide name="james"]
+@jump target=*scene5.3_end
+
+*select_a1.2
+#Spot
+Spot goes up to James and nudges his leg with his nose. [p]
+James puts down the bottle to pet Spot. [p]
+Spot is satisfied that he was able to get James to stop drinking, and falls asleep happily at his feet. [p]
+Once Spot falls asleep, James stops petting him and goes back to drinking from the bottle. [p]
+[hide name="james"]
+@jump target=*scene5.3_end
+
+*select_a2
+[show name="chris"]
+#Spot
+Spot goes downstairs to Chris’s bedroom. Chris is sitting on her bed crying. [p]
+Spot wants to help comfort her but isn’t sure what he should do. [p]
+He could try to comfort her directly, or he could bring her his favorite toy, since that always makes him happy. [p]
+
+[select_new text="Jump_on_bed" target=*select_a2.1 ]
+[select_new text="Bring her toy" target=*select_a2.2 ]
+
+[select show]
+[s]
+
+*select_a2.1
+#Spot
+Spot walks into the room and jumps up onto Chris’s bed. [p]
+Chris is a little surprised by this, but grabs onto him, wrapping him in a hug. [p]
+Chris continues to cry for a bit, but Spot stays by her side, trying to lick away her tears. [p]
+After a while her tears subside, and the two of them lay next to each other for the rest of the night. [p]
+[hide name="chris"]
+@jump target=*scene5.3_end
+
+*select_a2.1
+#Spot
+Spot runs upstairs and grabs his rope toy. He quickly brings it downstairs and presents it to Chris. [p]
+Chris groans and throws the toy out of the room. As Spot runs to fetch it, she closes the door behind her. [p]
+Spot is sad that his attempt to cheer up Chris didn’t work, and he doesn’t understand why the toy didn’t cheer her up like it has many times for him. [p]
+He goes back upstairs and lays by the door, hoping Leah will come home soon and fix everything. [p]
+[hide name="chris"]
+@jump target=*scene5.3_end
+
+*select_a3
+[show name="ben"]
+#Spot
+Spot runs upstairs to Ben’s bedroom. Ben is sitting on his bed crying. [p]
+Spot wants to help comfort him but isn’t sure what he should do. [p]
+He could try to comfort him directly, or he could bring him his favorite toy, since that always makes him happy. [p]
+
+[select_new text="Jump__on_bed" target=*select_a3.1 ]
+[select_new text="Bring_him_toy" target=*select_a3.2 ]
+
+[select show]
+[s]
+
+*select_a3.1
+#Spot
+Spot walks into the room and jumps on the bed. Ben is surprised by this and shoves Spot off the bed. [p]
+Spot is sad that Ben clearly does not want his company. [p]
+He goes back downstairs and lays by the door, hoping Leah will come home soon and fix everything. [p]
+[hide name="ben"]
+@jump target=*scene5.3
+
+*select_a3.2
+#Spot
+Spot runs upstairs and grabs his rope toy. He quickly brings it downstairs and presents it to Ben. [p]
+Ben smiles and grabs it from him. The two start playing fetch. [p]
+After a few throws, Ben calls Spot over and hugs him. [p]
+The two enjoy each other’s company and spend the rest of the night in Ben’s room. [p]
+[hide name="ben"]
+@jump target=*scene5.3
+
+*scene5.3
+;[bg_hide name="level5.3"]
+[bg_hide name="level1.3"]
+
+@jump file=wide/level5 target=*scene5.3_return
+
+[s]
