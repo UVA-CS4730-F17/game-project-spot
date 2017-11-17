@@ -1,7 +1,7 @@
 *scene3.2_begin
 
 ;change later
-[bg_show name="level1.2"]
+[bg_show name="level3.2"]
 
 #Spot
 The family leaves the house to go to work and school. Usually they will all come by the living room and say bye to Spot before they leave, but today they didn’t. [p]
@@ -131,7 +131,7 @@ The two play keep away with each other until they are called in for dinner by Ja
 
 
 *scene3.2_end
-[bg_hide name="level1.2"]
+[bg_hide name="level3.2"]
 @jump file=wide/level3 target=*scene3.2_return
 
 [s]

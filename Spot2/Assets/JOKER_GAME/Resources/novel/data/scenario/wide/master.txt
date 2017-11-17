@@ -6,6 +6,8 @@
 [bg_new name="level2.2" storage="level2.2"]
 [bg_new name="level2.3" storage="level2.3"]
 [bg_new name="level3.1" storage="level3.1"]
+[bg_new name="level3.2" storage="level3.2"]
+[bg_new name="level3.3" storage="level3.3"]
 
 ;メッセージ表示
 [showmessage]

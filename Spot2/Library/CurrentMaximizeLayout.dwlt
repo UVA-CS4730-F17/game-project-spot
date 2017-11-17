@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1304
     height: 675
-  m_MinSize: {x: 705, y: 471}
-  m_MaxSize: {x: 18000, y: 14021}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 586
+  controlID: 377
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,14 +149,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 62
-    y: 92
+    y: 100
     width: 266
     height: 654
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 50fbffff00000000
+    m_ExpandedIDs: 52f8ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -199,10 +199,10 @@ MonoBehaviour:
     y: 0
     width: 753
     height: 675
-  m_MinSize: {x: 230, y: 471}
-  m_MaxSize: {x: 10000, y: 14021}
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 545
+  controlID: 378
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 332
-    y: 92
+    y: 100
     width: 749
     height: 376
   m_SceneLighting: 1
@@ -321,8 +321,8 @@ MonoBehaviour:
     y: 397
     width: 753
     height: 278
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 234, y: 271}
+  m_MaxSize: {x: 10004, y: 10021}
   m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 9}
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 332
-    y: 489
+    y: 497
     width: 749
     height: 257
   m_SearchFilter:
@@ -373,13 +373,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/JOKER_GAME/Resources/novel/data/images/background
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Li-Chian\Documents\Game\SpotRepo\Spot2
+  m_LastProjectPath: C:\Users\emily\Box Sync\2017-2018\CS4730\game-project-spot\Spot2
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 212}
-    m_SelectedIDs: b6270000
-    m_LastClickedID: 10166
-    m_ExpandedIDs: 000000001427000024270000342700006227000068270000762700009e270000c6270000f82700001e28000000ca9a3bffffff7f
+    m_SelectedIDs: 6c2a0000
+    m_LastClickedID: 10860
+    m_ExpandedIDs: 00000000d4290000de290000ee290000182a00001e2a00002c2a0000542a00007a2a0000aa2a0000c82a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -407,7 +407,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001427000024270000342700006227000068270000762700009e270000c6270000f82700001e28000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000d4290000de290000ee290000182a00001e2a00002c2a0000542a00007a2a0000aa2a0000c82a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000e8dc0000dedd00008a260000a227000076260000dc2800009ec0ffffc8bcffff349affff5e96ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -459,7 +459,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 40}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 208
 --- !u!114 &10
@@ -522,8 +522,8 @@ MonoBehaviour:
     y: 0
     width: 283
     height: 675
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -553,7 +553,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1085
-    y: 92
+    y: 100
     width: 281
     height: 654
   m_ScrollPosition: {x: 0, y: 0}

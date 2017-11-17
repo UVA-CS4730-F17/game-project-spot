@@ -22,7 +22,7 @@ The atmosphere seems down. Spot doesn’t know what’s wrong but he wants to he
 *select_a1
 [show name="james"]
 #Spot
-Spot runs up to James and stare up to him expectantly. He smiles slightly at Spot and says something to Spot. Spot understand the words ‘get’ and ‘paper.’ What would Spot like to do? [p];
+Spot runs up to James and stares up at him expectantly. He smiles slightly at Spot and says something to Spot. Spot understand the words ‘get’ and ‘paper.’ What would Spot like to do? [p];
 
 [select_new text="Newspaper" target=*select_a1.1 ]
 [select_new text="Leash" target=*select_a1.2 ]
