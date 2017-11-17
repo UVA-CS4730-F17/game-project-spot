@@ -1,7 +1,6 @@
 *scene3.1_begin
 
-;change background later
-[bg_show name="level1.1"]
+[bg_show name="level3.1"]
 
 #Spot
 Spot wakes up and walks over to the kitchen to find the family having breakfast. [p]
@@ -186,8 +185,7 @@ Chris starts cleaning up her bag while Spot walks off with his tail between his 
 
 *scene3.1_end
 
-;change background later
-[bg_hide name="level1.1"]
+[bg_hide name="level3.1"]
 
 @jump file=wide/level3 target=*scene3.1_return
 

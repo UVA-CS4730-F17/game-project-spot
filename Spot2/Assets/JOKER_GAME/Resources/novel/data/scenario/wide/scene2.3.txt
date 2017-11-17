@@ -1,7 +1,6 @@
 *scene2.3_begin
 
-;[bg_show name="level2.3"]
-[bg_show name="level1.3"]
+[bg_show name="level2.3"]
 
 #Spot
 A few hours later, Chris and Ben return home from school. [p]
@@ -21,8 +20,7 @@ He just doesn’t know what to do. He walks over to the them and leans against L
 After hugging and talking for a while, the family leaves the kitchen and gets ready for bed. [p]
 Spot notices that the mood is fairly gloomy and hopes that things will be back to normal in the morning. [p]
 
-;[bg_hide name="level2.3"]
-[bg_hide name="level1.3"]
+[bg_hide name="level2.3"]
 
 @jump file=wide/level2 target=*scene2.3_return
 

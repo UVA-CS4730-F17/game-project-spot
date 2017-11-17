@@ -1,7 +1,11 @@
 @call file=wide/libs/utils
 [bg_new name="level1.1" storage="level1.1"]
-[bg_new name="level1.2" storage="level1.2.resize"]
-[bg_new name="level1.3" storage="level1.3.resize"]
+[bg_new name="level1.2" storage="level1.2"]
+[bg_new name="level1.3" storage="level1.3"]
+[bg_new name="level2.1" storage="level2.1"]
+[bg_new name="level2.2" storage="level2.2"]
+[bg_new name="level2.3" storage="level2.3"]
+[bg_new name="level3.1" storage="level3.1"]
 
 ;メッセージ表示
 [showmessage]
@@ -33,12 +37,24 @@
 
 [playbgm wait=false time=1 storage="music"]
 
-;@jump file=wide/level1 target=*level1_begin
+@jump file=wide/level1 target=*level1_begin
 
-;*level1_return
+*level1_return
+
+@jump file=wide/level2 target=*level2_begin
+
+*level2_return
+
+@jump file=wide/level3 target=*level3_begin
+
+*level3_return
 
 @jump file=wide/level4 target=*level4_begin
 
 *level4_return
+
+@jump file=wide/level5 target=*level5_begin
+
+*level5_return
 
 @jump new file=wide/title.txt

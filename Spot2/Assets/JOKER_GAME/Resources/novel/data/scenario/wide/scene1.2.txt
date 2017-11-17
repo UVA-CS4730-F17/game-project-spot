@@ -27,7 +27,7 @@ Should he bark to let her and the rest of the family know? [p]
 #Spot
 Spot starts barking very loudly. This causes Leah to jump in surprise. [p]
 The rest of the family comes to the kitchen to see why Spot is barking so much. [p]
-James comes over and starts to reprimand Spot, saying 'Quiet!' over and over again until he stops. [p]
+James comes over and starts to reprimand Spot, saying "Quiet!" over and over again until he stops. [p]
 Leah starts coughing into her hands and when she stops there is blood on her hands. [p]
 While Leah washes her hands in the sink, the rest of the family glares at Spot. [p]
 Spot puts his tail in between his legs and walks into the living room to lay down. [p]
