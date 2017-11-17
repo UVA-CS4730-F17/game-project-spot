@@ -90,8 +90,8 @@ Chris is sitting on her bed with her best friend Meg, listening to loud rock mus
 Normally Chris takes Spot on walks at this time of the evening, but she seems pretty happy to be hanging out with Meg. [p]
 Should Spot hang out with Meg and Chris, or should he get her the leash to remind her what time it is? Maybe Meg will come on the walk. [p]
 
-[select_new text="Walk" target=*select_a3.1 ]
-[select_new text="No.walk" target=*select_a3.2]
+[select_new text="Walk" target=*select_a3.2 ]
+[select_new text="No.walk" target=*select_a3.1 ]
 
 [select_show]
 [s]
