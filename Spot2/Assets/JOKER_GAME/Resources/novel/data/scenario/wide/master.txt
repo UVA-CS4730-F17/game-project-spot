@@ -25,10 +25,20 @@
 @chara_pos name="chris" x=0 y=-0.7
 @chara_pos name="ben" x=-5 y=-0.7
 
+;HAPPINESS METERS
+[calc exp="f.james=50"]
+[calc exp="f.leah=50"]
+[calc exp="f.chris=50"]
+[calc exp="f.ben=50"]
+
 [playbgm wait=false time=1 storage="music"]
 
-@jump file=wide/level1 target=*level1_begin
+;@jump file=wide/level1 target=*level1_begin
 
-*level1_return
+;*level1_return
+
+@jump file=wide/level4 target=*level4_begin
+
+*level4_return
 
 @jump new file=wide/title.txt
