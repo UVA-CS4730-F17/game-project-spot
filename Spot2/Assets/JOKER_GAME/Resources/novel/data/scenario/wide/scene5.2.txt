@@ -29,6 +29,7 @@ Spot watches Leah open the box and use a roll of elastic bandage to create a mak
 She slowly stands up, using Spot as a balance. Once she’s on her feet, she walks over to her phone and calls James. [p]
 Ten minutes later James is back at the house. He helps Leah into his car and they leave for the hospital. [p]
 Spot is happy that James was able to get her, but has a nagging feeling that something is still off. [p]
+[calc exp="f.leah={f.leah}+1"]
 @jump target=*scene5.2_end
 
 *select_a2

@@ -34,7 +34,11 @@ Spot puts his tail in between his legs and walks into the living room to lay dow
 He does not understand why they did not understand his concern. [p]
 As he is leaving the room, Leah picks up the phone and calls someone. [p]
 The rest of the family goes back to getting ready for the rest of the day. [p]
-
+[calc exp="f.spot={f.spot}-1"]
+[calc exp="f.james={f.james}-1"]
+[calc exp="f.leah={f.leah}-1"]
+[calc exp="f.chris={f.chris}-1"]
+[calc exp="f.ben={f.ben}-1"]
 @jump target=*scene1.2_end
 
 *select_a.2

@@ -41,6 +41,8 @@ Spot trots over to the front door and picks up the newspaper. [p]
 He brings it over to James, who grabs it. [p]
 He smiles at Spot, says ‘Good Boy!’, and pats Spot on the head, who wags his tail in satisfaction, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
+[calc exp="f.james={f.james}+1"]
+[calc exp="f.spot={f.spot}+1"]
 @jump target=*scene2.1_end
 
 *select_a1.2
@@ -51,6 +53,7 @@ He brings it over to James, who grabs it. [p]
 He frowns a little, says ‘No time for a walk, buddy’ and gets up to put away the leash. [p]
 Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene2.1_end
 
 
@@ -63,6 +66,7 @@ He brings it over to James, who grabs it. [p]
 He frowns a little, says ‘No,’ and gets up to put away the hat. [p]
 Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene2.1_end
 
 *select_a1.4
@@ -73,6 +77,7 @@ He brings it over to James, who grabs it. [p]
 He frowns a little, says ‘No,’ and gets up to put away the jacket. [p]
 Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene2.1_end
 
 *select_a2
@@ -98,6 +103,8 @@ Leah smiles, says, ‘Good Boy!’ She then tosses Spot a piece of bacon. [p]
 Spot catches the bacon and wags his tail. [p]
 Spot then walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.leah={f.leah}+1"]
 @jump target=*scene2.1_end
 
 *select_a2.2
@@ -110,6 +117,8 @@ Chris comes over and pats Spot on the head. [p]
 She then picks up the stick and takes it back to the living room. [p]
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on the stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-1"]
+[calc exp="f.chris={f.chris}-1"]
 @jump target=*scene2.1_end
 
 *select_a2.3
@@ -118,6 +127,7 @@ Spot holds out one of his paws. [p]
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene2.1_end
 
 *select_a2.4
@@ -126,6 +136,7 @@ Spot lies down on the ground. [p]
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece and walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene2.1_end
 
 *select_a2.5
@@ -134,6 +145,8 @@ Spot barks loudly. [p]
 Leah jumps in surprise. She frowns at Spot and says, ‘No!’. She goes back to making bacon. [p]
 Spot puts his tail between his legs and whimpers, then walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-1"]
+[calc exp="f.leah={f.leah}-1"]
 @jump target=*scene2.1_end
 
 *select_a3
@@ -160,6 +173,9 @@ Chris and Ben get up from the table and take turns tossing the ball for Spot to 
 Once they finish playing, Spot walks over to the living room to chew on a stick. [p]
 [hide name="chris"]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
+[calc exp="f.ben={f.ben}+1"]
 @jump target=*scene2.1_end
 
 *select_a3.2
@@ -170,6 +186,9 @@ Chris and Ben get up from the table and take turns tossing the stick for Spot to
 Once they finish playing, Spot takes the stick over to the living room to chew on it in peace. [p]
 [hide name="chris"]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
+[calc exp="f.ben={f.ben}+1"]
 @jump target=*scene2.1_end
 
 *select_a3.3
@@ -182,6 +201,9 @@ He cheers both of them on as they continue to tug on the rope. [p]
 Once they finish playing, Spot walks over to the living room to chew on a stick. [p]
 [hide name="chris"]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
+[calc exp="f.ben={f.ben}+1"]
 @jump target=*scene2.1_end
 
 *select_a3.4
@@ -194,6 +216,9 @@ Chris starts cleaning up her bag while Spot walks off with his tail between his 
 He walks over to the living room to chew on a stick. [p]
 [hide name="chris"]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}-1"]
+[calc exp="f.chris={f.chris}-1"]
+[calc exp="f.ben={f.ben}-1"]
 @jump target=*scene2.1_end
 
 *scene2.1_end

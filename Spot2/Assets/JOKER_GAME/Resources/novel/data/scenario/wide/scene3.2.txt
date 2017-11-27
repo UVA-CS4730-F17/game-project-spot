@@ -41,6 +41,8 @@ He stands up and wobbles a bit, then tries to throw the ball for Spot. The ball 
 James laughs and tries again, but the ball still doesn’t go far. [p]
 Spot is disappointed, but James seems to be having a good time. James and Spot walk downstairs to the kitchen and wait for dinner. James left the bottle upstairs at his desk. [p]
 [hide name="james"]
+[calc exp="f.spot={f.spot}-1"]
+[calc exp="f.james={f.james}+1"]
 @jump target=*scene3.2_end
 
 *select_a1.2
@@ -48,6 +50,8 @@ Spot is disappointed, but James seems to be having a good time. James and Spot w
 Spot decides not to bother his master. Spot lays down at his feet and goes to sleep, enjoying James’s company. [p]
 James goes back to staring at the photograph. He continues to drink from the bottle, and a single tear rolls down his cheek. [p]
 [hide name="james"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.james={f.james}-2"]
 @jump target=*scene3.2_end
 
 *select_a2
@@ -67,6 +71,8 @@ What should Spot get? [p]
 Spot pulls a blanket off a nearby chair and carries it over to Leah. [p]
 Leah grabs it gratefully and drapes it over herself. Spot lays down in front of her and she pets him as she continues to watch tv. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.leah={f.leah}+1"]
 @jump target=*scene3.2_end
 
 *select_a2.2
@@ -76,6 +82,8 @@ Spot is surprised by this change in appearance and drops the scarf on the ground
 Leah quickly grabs the scarf off the ground and puts it back on her head, crying. [p]
 Spot feels horrible that he made her cry and sulks away. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-2"]
+[calc exp="f.leah={f.leah}-2"]
 @jump target=*scene3.2_end
 
 *select_a3
@@ -95,6 +103,8 @@ Spot jumps up on the bed, forcing himself between Chris and Meg. [p]
 Chris yells at Spot “What are you doing!?” and shoves him off the bed. She starts crying even harder. [p]
 Meg walks Spot out of the room and closes the door behind her. [p]
 [hide name="chris"]
+[calc exp="f.spot={f.spot}-2"]
+[calc exp="f.chris={f.chris}-2"]
 @jump target=*scene3.2_end
 
 *select_a3.2
@@ -102,6 +112,8 @@ Meg walks Spot out of the room and closes the door behind her. [p]
 Spot decides to leave the two of them alone. Meg seems to have everything handled. [p]
 As Spot turns to walk back upstairs, he sees Meg dry Chris’s eyes and kiss her. This seems to cheer up Chris, and Spot knows made the right choice. [p]
 [hide name="chris"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
 @jump target=*scene3.2_end
 
 *select_a4
@@ -120,6 +132,8 @@ Spot sprints over to the ball and picks it up. What should he do now? [p]
 Spot trots over to Ben and drops the ball at his feet. Ben smiles and kicks the ball across the yard. [p]
 The two of them play fetch until they are called in for dinner by James. [p]
 [hide name="ben"]
+[calc exp="f.ben={f.ben}+1"]
+[calc exp="f.spot={f.spot}+1"]
 @jump target=*scene3.2_end
 
 *select_a4.2
@@ -127,6 +141,8 @@ The two of them play fetch until they are called in for dinner by James. [p]
 Spot takes the ball and runs to the other side of the lawn. Ben laughs and starts chasing him. [p]
 The two play keep away with each other until they are called in for dinner by James. [p]
 [hide name="ben"]
+[calc exp="f.ben={f.ben}+1"]
+[calc exp="f.spot={f.spot}+1"]
 @jump target=*scene3.2_end
 
 

@@ -27,6 +27,9 @@ Spot walks into the living room and grabs a box of tissues off one of the side t
 He walks back to Leah and James and offers up the box. [p]
 James appreciatively grabs the box and hands Leah a tissue, who uses it to dry her eyes. [p]
 James rubs Spot’s head, and the three of them walk into the living room, where James and Leah spend the afternoon talking and watching tv. [p]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.leah={f.leah}+1"]
+[calc exp="f.james={f.james}+1"]
 @jump target=*scene2.2_end
 
 *select_a2
@@ -37,6 +40,7 @@ James shakes his head and says, ‘Not right now, buddy.’ He then walks into t
 Spot is puzzled over the fact that his attempt didn’t work. [p]
 If he had been sad, the chance to play would’ve instantly cheered him up. [p]
 Disappointed in himself, he walks into the living room and naps near Leah and James, who spend the afternoon talking and watching tv. [p]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene2.2_end
 
 *scene2.2_end

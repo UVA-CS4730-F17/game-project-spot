@@ -32,10 +32,11 @@
 @chara_pos name="ben" x=-5 y=-0.7
 
 ;HAPPINESS METERS
-[calc exp="f.james=50"]
-[calc exp="f.leah=50"]
-[calc exp="f.chris=50"]
-[calc exp="f.ben=50"]
+[calc exp="f.spot=10"]
+[calc exp="f.james=10"]
+[calc exp="f.leah=10"]
+[calc exp="f.chris=10"]
+[calc exp="f.ben=10"]
 
 [playbgm wait=false time=1 storage="music"]
 

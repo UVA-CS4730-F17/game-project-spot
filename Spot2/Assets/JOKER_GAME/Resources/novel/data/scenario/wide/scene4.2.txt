@@ -27,7 +27,9 @@ Spot is horrified that everyone is so unhappy and wants to help, but he doesn’
 Spot runs up to Chris and James and wedges himself between them. He starts barking, causing the two of them to stop and focus on Spot. [p]
 Chris leans down to Spot to pet him and try to get him to stop barking. [p]
 In the meantime, Leah walks over to her husband and leads him into the kitchen to get him some water and let him sit down. Ben walks over to Chris and Spot and wraps both of them in a hug. [p]
-
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.james={f.james}+1"]
+[calc exp="f.chris={f.chris}+1"]
 @jump target=*scene4.2_end
 
 *select_a2
@@ -36,7 +38,11 @@ Spot walks over to Ben and Leah and nudges them with his head. The two of them p
 Leah turns on the TV and the three of them cuddle for a bit, appreciating each other’s company. [p]
 After a while the yelling in the other room stops and Chris storms downstairs, slamming her door behind her. James walks into the room and Leah takes him into the kitchen to get him some water. [p]
 Ben and Spot remain in the living room and watch TV together. [p]
-
+[calc exp="f.spot={f.spot}+2"]
+[calc exp="f.ben={f.ben}+2"]
+[calc exp="f.leah={f.leah}+1"]
+[calc exp="f.james={f.james}-2"]
+[calc exp="f.chris={f.chris}-2"]
 @jump target=*scene4.2_end
 
 *scene4.2_end

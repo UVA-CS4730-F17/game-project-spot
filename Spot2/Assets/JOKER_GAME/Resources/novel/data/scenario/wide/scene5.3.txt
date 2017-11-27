@@ -50,6 +50,8 @@ He feels bad for yelling at Spot, so he goes to find him and comfort him as an a
 James finds Spot in the living room and hugs him. [p]
 Spot feels a little better, but is still upset about breaking the bottle. [p]
 [hide name="james"]
+[calc exp="f.james={f.james}+2"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene5.3_end
 
 *select_a1.2
@@ -59,6 +61,8 @@ James puts down the bottle to pet Spot. [p]
 Spot is satisfied that he was able to get James to stop drinking, and falls asleep happily at his feet. [p]
 Once Spot falls asleep, James stops petting him and goes back to drinking from the bottle. [p]
 [hide name="james"]
+[calc exp="f.james={f.james}-2"]
+[calc exp="f.spot={f.spot}+1"]
 @jump target=*scene5.3_end
 
 *select_a2
@@ -81,6 +85,8 @@ Chris is a little surprised by this, but grabs onto him, wrapping him in a hug. 
 Chris continues to cry for a bit, but Spot stays by her side, trying to lick away her tears. [p]
 After a while her tears subside, and the two of them lay next to each other for the rest of the night. [p]
 [hide name="chris"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
 @jump target=*scene5.3_end
 
 *select_a2.2
@@ -90,6 +96,8 @@ Chris groans and throws the toy out of the room. As Spot runs to fetch it, she c
 Spot is sad that his attempt to cheer up Chris didn’t work, and he doesn’t understand why the toy didn’t cheer her up like it has many times for him. [p]
 He goes back upstairs and lays by the door, hoping Leah will come home soon and fix everything. [p]
 [hide name="chris"]
+[calc exp="f.chris={f.chris}-1"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene5.3_end
 
 *select_a3
@@ -111,6 +119,8 @@ Spot walks into the room and jumps on the bed. Ben is surprised by this and shov
 Spot is sad that Ben clearly does not want his company. [p]
 He goes back downstairs and lays by the door, hoping Leah will come home soon and fix everything. [p]
 [hide name="ben"]
+[calc exp="f.ben={f.ben}-1"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene5.3_end
 
 *select_a3.2
@@ -120,6 +130,8 @@ Ben smiles and grabs it from him. The two start playing fetch. [p]
 After a few throws, Ben calls Spot over and hugs him. [p]
 The two enjoy each other’s company and spend the rest of the night in Ben’s room. [p]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.ben={f.ben}+1"]
 @jump target=*scene5.3_end
 
 *scene5.3_end
