@@ -22,6 +22,12 @@ Spot notices that the mood is fairly gloomy and hopes that things will be back t
 
 [bg_hide name="level2.3"]
 
+[calc exp="f.spot={f.spot}-2"]
+[calc exp="f.james={f.james}-2"]
+[calc exp="f.leah={f.leah}-2"]
+[calc exp="f.chris={f.chris}-2"]
+[calc exp="f.ben={f.ben}-2"]
+
 @jump file=wide/level2 target=*scene2.3_return
 
 [s]

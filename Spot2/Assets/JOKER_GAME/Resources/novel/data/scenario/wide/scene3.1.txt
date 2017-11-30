@@ -37,7 +37,8 @@ Spot runs up to James and stares up at him expectantly. He smiles slightly at Sp
 Spot trots over to the front door and picks up the newspaper. He brings it over to James, who grabs it. [p]
 He smiles at Spot, says ‘Thanks’, and rubs Spot on the head, who wags his tail in satisfaction, then walks over to the living room to chew on the stick. [p]
 James starts to read the paper but looks up every so often to check on Leah. [p]
-
+[calc exp="f.james={f.james}+1"]
+[calc exp="f.spot={f.spot}+1"]
 [hide name="james"]
 @jump target=*scene3.1_end
 
@@ -50,6 +51,7 @@ He brings it over to James, who grabs it. [p]
 He sighs and says ‘Not right now’ and gets up to put away the leash. [p]
 Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene3.1_end
 
 *select_a1.3
@@ -58,6 +60,7 @@ Spot trots over to the hat rack by the front door. He looks at all of the object
 He brings it over to James, who grabs it. [p]
 He frowns a little, says ‘No,’ and gets up to put away the hat. Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene3.1_end
 
 *select_a1.4
@@ -67,6 +70,9 @@ He brings it over to James, who grabs it. [p]
 He sighs and stands up to put away the jacket, but then he stops. He turns to Spot and says “thanks,” and instead walks over to Leah and drapes it around her shoulders. [p] 
 She seems thankful for the warmth and attention. Spot wags his tail with satisfaction then walks over to the living room to chew on the stick. [p]
 [hide name="james"]
+[calc exp="f.james={f.james}+1"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.leah={f.leah}+1"]
 @jump target=*scene3.1_end
 
 *select_a2
@@ -90,6 +96,8 @@ Spot sits down.
 Leah smiles, says, ‘Good Boy!’ She then hands Spot a piece of bacon. [p]
 Spot catches the bacon and wags his tail. Spot then walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.leah={f.leah}+1"]
 @jump target=*scene3.1_end
 
 *select_a2.2
@@ -100,6 +108,8 @@ He brings the toy over to Leah and places it at her feet. [p]
 Leah shakes her head and speaks to Chris. Chris comes over and pats Spot on the head. She then picks up the stick and takes it back to the living room.[p]
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on the stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-1"]
+[calc exp="f.chris={f.chris}-1"]
 @jump target=*scene3.1_end
 
 *select_a2.3
@@ -108,6 +118,7 @@ Spot holds out one of his paws.
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene3.1_end
 
 *select_a2.4
@@ -116,6 +127,7 @@ Spot lies down on the ground.
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece and walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene3.1_end
 
 *select_a2.5
@@ -124,6 +136,9 @@ Spot barks loudly. [p]
 Leah is taken back with surprise and starts coughing. James comes over to make sure she’s ok and says ‘Bad Dog. [p]
 Spot puts his tail between his legs and whimpers, then walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}-1"]
+[calc exp="f.leah={f.leah}-1"]
+[calc exp="f.james={f.james}-1"]
 @jump target=*scene3.1_end
 
 *select_a3
@@ -148,6 +163,9 @@ Chris smiles and gets Ben’s attention. They get up from the table and take tur
 Once they finish playing, Spot walks over to the living room to chew on a stick. [p] 
 [hide name="chris"]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
+[calc exp="f.ben={f.ben}+1"]
 @jump target=*scene3.1_end
 
 *select_a3.2
@@ -158,6 +176,9 @@ Chris smiles and gets Ben’s attention. They get up from the table and take tur
 Once they finish playing, Spot takes the stick over to the living room to chew on it in peace. [p]
 [hide name="chris"]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
+[calc exp="f.ben={f.ben}+1"]
 @jump target=*scene3.1_end
 
 *select_a3.3
@@ -168,6 +189,9 @@ Ben notices them playing and gets up from the table and comes over to Chris and 
 Once they finish playing, Spot walks over to the living room to chew on a stick. [p]
 [hide name="chris"]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
+[calc exp="f.ben={f.ben}+1"]
 @jump target=*scene3.1_end
 
 *select_a3.4
@@ -178,6 +202,9 @@ Chris groans and says ‘Bad Dog!’
 Chris starts cleaning up her bag while Spot walks off with his tail between his legs. He walks over to the living room to chew on a stick. [p]
 [hide name="chris"]
 [hide name="ben"]
+[calc exp="f.spot={f.spot}-1"]
+[calc exp="f.chris={f.chris}-1"]
+[calc exp="f.ben={f.ben}-1"]
 @jump target=*scene3.1_end
 
 

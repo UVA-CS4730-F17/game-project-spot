@@ -45,6 +45,8 @@ What does Spot want to do? [p]
 Spot lies down at James’s feet and falls asleep. [p]
 James smiles, then continues reading, enjoying Spot’s company for the night. [p]
 [hide name="james"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.james={f.james}+3"]
 @jump target=*scene1.3_end
 
 *select_a1.2
@@ -54,6 +56,8 @@ They start playing fetch. [p]
 Spot is elated that James and him are having a blast playing together. [p]
 James is happy to spend time with Spot but really wanted to read that book. [p]
 [hide name="james"]
+[calc exp="f.james={f.james}+1"]
+[calc exp="f.spot={f.spot}+3"]
 @jump target=*scene1.3_end
 
 *select_a2
@@ -75,6 +79,8 @@ Spot’s hunger wins him over, so he walks up to Leah and slightly nudges her le
 Leah looks at the clock and realized he must be hungry, so she walks over to his food bowl and fills it with kibble. [p]
 Spot eats his dinner then curls up at Leah’s feet as she continues to make dinner. She’s happy for the company.  [p]
 [hide name="leah"]
+[calc exp="f.spot={f.spot}+2"]
+[calc exp="f.leah={f.leah}+2"]
 @jump target=*scene1.3_end
 
 *select_a2.2
@@ -103,6 +109,8 @@ Spot goes to lay down by the bed. Chris sees him walk in and invites him up to h
 Spot jumps up on the bed and lays between them. [p]
 Meg and Chris pet him and go back to chatting with each other and enjoying the music. [p]
 [hide name="chris"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}+1"]
 @jump target=*scene1.3_end
 
 *select_a3.2
@@ -114,6 +122,8 @@ Meg seems a little sad about this, but doesn’t argue. Meg packs up her things 
 Chris takes Spot for a walk around the neighborhood. He has a blast, chasing squirrels and barking at other dogs. [p]
 He’s so excited that he doesn’t notice that Chris is not her normal happy self on this walk. [p]
 [hide name="chris"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.chris={f.chris}-2"]
 @jump target=*scene1.3_end
 
 *select_a4
@@ -134,6 +144,8 @@ Should Spot grab one of his toys or grab the toys Ben was playing with? [p]
 Spot runs out of the room and finds a rope toy. [p]
 He brings it back to Ben and they play tug-o-war with the rope. [p]
 [hide name="ben"]
+[calc exp="f.ben={f.ben}+1"]
+[calc exp="f.spot={f.spot}+1"]
 @jump target=*scene1.3_end
 
 *select_a4.2
@@ -143,6 +155,11 @@ Ben shrieks with laughter and chases Spot throughout the house trying to get the
 As they go through each room, they run into each family member. [p]
 James tries to help Ben grab Spot, Leah laughs, and Chris tries to hold Ben back to give Spot a head start to the next room. [p]
 [hide name="ben"]
+[calc exp="f.ben={f.ben}+1"]
+[calc exp="f.spot={f.spot}+1"]
+[calc exp="f.james={f.james}+1"]
+[calc exp="f.leah={f.leah}+1"]
+[calc exp="f.chris={f.chris}+1"]
 @jump target=*scene1.3_end
 
 *scene1.3_end
