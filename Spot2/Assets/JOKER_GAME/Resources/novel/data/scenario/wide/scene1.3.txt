@@ -35,8 +35,8 @@ Spot sits by James’s feet and stares up at him expectantly. [p]
 James pats Spot’s head and goes back to reading. [p]
 What does Spot want to do? [p]
 
-[select_new text="Take.a.nap" target=*select_a1.1 ]
-[select_new text="Get.a.toy" target=*select_a1.2 ]
+[select_new text="Take a nap" target=*select_a1.1 ]
+[select_new text="Get a toy" target=*select_a1.2 ]
 
 [select_show]
 [s]
