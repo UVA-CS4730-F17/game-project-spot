@@ -13,6 +13,11 @@
 [bg_new name="level5.1" storage="level5.1"]
 [bg_new name="level5.2" storage="level5.2"]
 [bg_new name="level5.3" storage="level5.3"]
+[bg_new name="level6.1" storage="level6.1"]
+[bg_new name="level6.2" storage="level6.2"]
+[bg_new name="level6.3" storage="level6.3"]
+[bg_new name="level6.4a" storage="level6.4a"]
+[bg_new name="level6.4b" storage="level6.4b"]
 
 ;メッセージ表示
 [showmessage]
@@ -25,10 +30,20 @@
 
 @tag_default tag="chara"
 [chara_new name="james" storage="resize_james_profile" jname="James" scale=2 jcolor=FF77FF]
+[chara_new name="james_neutral" storage="james_profile_neutral" jname="James" scale=2 jcolor=FF77FF]
+[chara_new name="james_sad" storage="james_profile_sad" jname="James" scale=2 jcolor=FF77FF]
 [chara_new name="leah" storage="resize_leah_profile" jname="Leah" scale=2 jcolor=FF77FF]
+[chara_new name="leah_neutral" storage="leah_profile_neutral" jname="Leah" scale=2 jcolor=FF77FF]
+[chara_new name="leah_sad" storage="leah_profile_sad" jname="Leah" scale=2 jcolor=FF77FF]
 [chara_new name="chris" storage="resize_chris_profile" jname="Chris" scale=2 jcolor=FF77FF]
+[chara_new name="chris_neutral" storage="chris_profile_neutral" jname="Chris" scale=2 jcolor=FF77FF]
+[chara_new name="chris_sad" storage="chris_profile_sad" jname="Chris" scale=2 jcolor=FF77FF]
 [chara_new name="ben" storage="resize_ben_profile" jname="Ben" scale=2 jcolor=FF77FF]
+[chara_new name="ben_neutral" storage="ben_profile_neutral" jname="Ben" scale=2 jcolor=FF77FF]
+[chara_new name="ben_sad" storage="ben_profile_sad" jname="Ben" scale=2 jcolor=FF77FF]
 [chara_new name="leah_sick" storage="leah_profile_sick" jname="Leah" scale=2 jcolor=FF77FF]
+[chara_new name="leah_sick_neutral" storage="leah_profile_sick_neutral" jname="Leah" scale=2 jcolor=FF77FF]
+[chara_new name="leah_sick_sad" storage="leah_profile_sick_sad" jname="Leah" scale=2 jcolor=FF77FF]
 @reset_tag_default
 
 
