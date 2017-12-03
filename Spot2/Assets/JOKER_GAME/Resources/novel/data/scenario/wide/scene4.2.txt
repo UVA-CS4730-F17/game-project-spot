@@ -1,7 +1,7 @@
 *scene4.2_begin
 
 ;change background later
-[bg_show name="level1.2"]
+[bg_show name="level4.2"]
 
 #Spot
 The family leaves the house to go to work and school. At this point Spot no longer expects them to say goodbye to him before leaving; it seems like it’s been years since they’ve done it. [p] 
@@ -48,7 +48,7 @@ Ben and Spot remain in the living room and watch TV together. [p]
 *scene4.2_end
 
 ;change background later
-[bg_hide name="level1.2"]
+[bg_hide name="level4.2"]
 
 @jump file=wide/level4 target=*scene4.2_return
 

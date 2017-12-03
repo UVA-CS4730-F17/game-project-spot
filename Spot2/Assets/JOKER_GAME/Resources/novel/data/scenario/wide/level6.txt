@@ -1,0 +1,33 @@
+*level6_begin
+
+;calculate total HAPPINESS
+
+[calc exp="f.total={f.james}+{f.leah}]
+[calc exp="f.total={f.total}+{f.chris}]
+[calc exp="f.total={f.total}+{f.ben}]
+[calc exp="f.total={f.total}+{f.spot}]
+the total happiness is {f.total} [p]
+
+;IF THEY HAVE ENOUGH HAPPINESS TO GET THE GOOD ENDING
+[if exp="{f.total}>45"]
+
+@jump file=wide/scene6-good target=*scene6-good_begin
+
+*scene6-good_return
+
+
+
+;BAD ENDING
+[else]
+@jump file=wide/scene6-bad target=*scene6-bad_begin
+
+*scene6-bad_return
+
+
+[endif]
+
+
+done with level 6 [p]
+
+
+@jump file=wide/master target=*level6_return

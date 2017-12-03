@@ -1,7 +1,7 @@
 *scene5.2_begin
 
-;[bg_show name="level5.2"]
-[bg_show name="level1.2"]
+[bg_show name="level5.2"]
+
 
 #Spot
 James, Chris, and Ben leave the house to go to work and school. [p]
@@ -40,8 +40,8 @@ Spot is happy that James was able to get her, but has a nagging feeling that som
 @jump target=*scene5.2_end
 
 *scene5.2_end
-;[bg_hide name="level5.2"]
-[bg_hide name="level1.2"]
+[bg_hide name="level5.2"]
+
 
 @jump file=wide/level5 target=*scene5.2_return
 

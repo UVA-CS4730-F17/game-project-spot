@@ -8,6 +8,11 @@
 [bg_new name="level3.1" storage="level3.1"]
 [bg_new name="level3.2" storage="level3.2"]
 [bg_new name="level3.3" storage="level3.3"]
+[bg_new name="level4.1" storage="level4.1"]
+[bg_new name="level4.2" storage="level4.2"]
+[bg_new name="level5.1" storage="level5.1"]
+[bg_new name="level5.2" storage="level5.2"]
+[bg_new name="level5.3" storage="level5.3"]
 
 ;メッセージ表示
 [showmessage]
@@ -23,11 +28,13 @@
 [chara_new name="leah" storage="resize_leah_profile" jname="Leah" scale=2 jcolor=FF77FF]
 [chara_new name="chris" storage="resize_chris_profile" jname="Chris" scale=2 jcolor=FF77FF]
 [chara_new name="ben" storage="resize_ben_profile" jname="Ben" scale=2 jcolor=FF77FF]
+[chara_new name="leah_sick" storage="leah_profile_sick" jname="Leah" scale=2 jcolor=FF77FF]
 @reset_tag_default
 
 
 @chara_pos name="james" x=0 y=-0.7
 @chara_pos name="leah" x=0 y=-0.7
+@chara_pos name="leah_sick" x=0 y=-0.7
 @chara_pos name="chris" x=0 y=-0.7
 @chara_pos name="ben" x=-5 y=-0.7
 
@@ -60,4 +67,8 @@
 
 *level5_return
 
-@jump new file=wide/title.txt
+@jump file=wide/level6 target=*level6_begin
+
+*level6_return
+
+;@jump new file=wide/title.txt
