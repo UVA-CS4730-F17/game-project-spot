@@ -153,6 +153,7 @@
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level3.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level4.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level5.txt" />
+    <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level6.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\menu.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\save.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\libs\utils.txt" />
@@ -171,6 +172,8 @@
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene5.1.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene5.2.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene5.3.txt" />
+    <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene6-bad.txt" />
+    <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene6-good.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\system.txt" />
     <None Include="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\title.txt" />
   </ItemGroup>

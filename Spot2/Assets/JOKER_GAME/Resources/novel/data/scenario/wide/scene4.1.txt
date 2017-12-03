@@ -1,7 +1,6 @@
 *scene4.1_begin
 
-;change background later
-[bg_show name="level1.1"]
+[bg_show name="level4.1"]
 
 #Spot
 Spot wakes up and walks over to the kitchen to find the family having breakfast. [p]
@@ -84,7 +83,7 @@ Spot puts his tail between his legs and whimpers, then walks over to the living 
 
 
 *select_a2
-[show name="leah"]
+[show name="leah_sick"]
 #Spot
 Spot runs up to Leah and stares up to her expectantly. [p]
 She smiles slightly at Spot and says something to Spot. Spot understand the words ‘get’ and ‘jacket.’ What would Spot like to do? [p]
@@ -101,7 +100,7 @@ She smiles slightly at Spot and says something to Spot. Spot understand the word
 #Spot
 Spot trots over to the front door and pulls a jacket down from the coat rack. He brings it over to Leah, who grabs it. [p]
 She smiles at Spot, says ‘Thanks’, and puts on the jacket. She rubs Spot on the head, who wags his tail in satisfaction, then walks over to the living room to chew on a stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}+1"]
 [calc exp="f.leah={f.leah}+1"]
 @jump target=*scene4.1_end
@@ -111,7 +110,7 @@ She smiles at Spot, says ‘Thanks’, and puts on the jacket. She rubs Spot on 
 Spot trots over to the hat rack by the front door. He looks at all of the objects hanging off the rack, then pulls down the leash because he wants to take a walk. [p] 
 He brings it over to Leah, who grabs it. She sighs and says ‘Not right now’ and gets up to put away the leash. [p]
 Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene4.1_end
 
@@ -120,7 +119,7 @@ Spot whimpers in disappointment, then walks over to the living room to chew on t
 Spot trots over to the hat rack by the front door. He looks at all of the objects hanging off the rack, then jumps up and pulls down the hat because he thinks it might look nice with Leah’s head scarf. [p]
 He brings it over to Leah, who grabs it. She sighs, says ‘No,’ and gets up to put away the hat. [p]
 Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene4.1_end
 
@@ -130,7 +129,7 @@ Spot trots over to the front door and grabs the newspaper. [p]
 He brings it over to Leah, who grabs it. She sighs and walks over to James to give him the paper. [p]
 She then walks over to the coat rack and grabs the jacket herself. [p]
 Spot realizes that he grabbed the wrong thing, whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene4.1_end
 
@@ -206,7 +205,7 @@ Chris starts cleaning up her bag while Spot walks off with his tail between his 
 *scene4.1_end
 
 ;change background later
-[bg_hide name="level1.1"]
+[bg_hide name="level4.1"]
 
 @jump file=wide/level4 target=*scene4.1_return
 

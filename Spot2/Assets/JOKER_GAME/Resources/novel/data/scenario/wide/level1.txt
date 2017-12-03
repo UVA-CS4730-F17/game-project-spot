@@ -9,10 +9,5 @@
 
 *scene1.3_return
 
-#Spot
-The entire family comes into the kitchen for dinner. Ben sneaks Spot his vegetables under the table. [p] 
-After dinner they family goes back to their rooms to finish up work and get ready for bed. [p]
-Spot spends most of the evening in James and Leah’s room. [p]
-As Spot is about to go to sleep for the night, he notices that Leah coughs again. [p]
 
 @jump file=wide/master target=*level1_return

@@ -1,0 +1,13 @@
+*scene6-bad_begin
+
+[bg_show name="level1.2"]
+
+#Spot
+this is bad ending[p]
+
+
+
+[bg_hide name="level1.2"]
+@jump file=wide/level6 target=*scene6-bad_return
+
+[s]

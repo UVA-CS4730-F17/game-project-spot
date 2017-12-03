@@ -1,0 +1,13 @@
+*scene6-good_begin
+
+[bg_show name="level1.1"]
+
+#Spot
+this is good ending[p]
+
+
+
+[bg_hide name="level1.1"]
+@jump file=wide/level6 target=*scene6-good_return
+
+[s]

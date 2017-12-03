@@ -55,6 +55,7 @@ James goes back to staring at the photograph. He continues to drink from the bot
 @jump target=*scene3.2_end
 
 *select_a2
+[show name="leah_sick"]
 #Spot
 Spot walks into the living room. Leah is lying on the couch watching tv. [p]
 The ceiling fan is on and Leah is shivering slightly. Spot wants to help warm her up, but isn’t sure what he should bring her. [p]
@@ -70,7 +71,7 @@ What should Spot get? [p]
 #Spot
 Spot pulls a blanket off a nearby chair and carries it over to Leah. [p]
 Leah grabs it gratefully and drapes it over herself. Spot lays down in front of her and she pets him as she continues to watch tv. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}+1"]
 [calc exp="f.leah={f.leah}+1"]
 @jump target=*scene3.2_end
@@ -81,7 +82,7 @@ Spot walks up to Leah and pulls the scarf off her head, exposing her head, which
 Spot is surprised by this change in appearance and drops the scarf on the ground. [p]
 Leah quickly grabs the scarf off the ground and puts it back on her head, crying. [p]
 Spot feels horrible that he made her cry and sulks away. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}-2"]
 [calc exp="f.leah={f.leah}-2"]
 @jump target=*scene3.2_end

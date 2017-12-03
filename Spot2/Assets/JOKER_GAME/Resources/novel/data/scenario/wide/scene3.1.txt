@@ -76,7 +76,7 @@ She seems thankful for the warmth and attention. Spot wags his tail with satisfa
 @jump target=*scene3.1_end
 
 *select_a2
-[show name="leah"]
+[show name="leah_sick"]
 Spot runs up to Leah, hoping to get one of the pieces of bacon. [p]
 Leah looks down at Spot, pats his head, and says, ‘Sit.’
 What would Spot like to do? [p]
@@ -95,7 +95,7 @@ What would Spot like to do? [p]
 Spot sits down.
 Leah smiles, says, ‘Good Boy!’ She then hands Spot a piece of bacon. [p]
 Spot catches the bacon and wags his tail. Spot then walks over to the living room to chew on a stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}+1"]
 [calc exp="f.leah={f.leah}+1"]
 @jump target=*scene3.1_end
@@ -107,7 +107,7 @@ He grabs the first thing he can find, which is a stick. [p]
 He brings the toy over to Leah and places it at her feet. [p]
 Leah shakes her head and speaks to Chris. Chris comes over and pats Spot on the head. She then picks up the stick and takes it back to the living room.[p]
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on the stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}-1"]
 [calc exp="f.chris={f.chris}-1"]
 @jump target=*scene3.1_end
@@ -117,7 +117,7 @@ Spot realizes that he is not getting a piece of bacon and walks over to the livi
 Spot holds out one of his paws. 
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene3.1_end
 
@@ -126,7 +126,7 @@ Spot realizes that he is not getting a piece of bacon and walks over to the livi
 Spot lies down on the ground.
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece and walks over to the living room to chew on a stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene3.1_end
 
@@ -135,7 +135,7 @@ Spot realizes that he is not getting a piece and walks over to the living room t
 Spot barks loudly. [p]
 Leah is taken back with surprise and starts coughing. James comes over to make sure she’s ok and says ‘Bad Dog. [p]
 Spot puts his tail between his legs and whimpers, then walks over to the living room to chew on a stick. [p]
-[hide name="leah"]
+[hide name="leah_sick"]
 [calc exp="f.spot={f.spot}-1"]
 [calc exp="f.leah={f.leah}-1"]
 [calc exp="f.james={f.james}-1"]

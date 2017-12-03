@@ -1,7 +1,6 @@
 *scene5.3_begin
 
-;[bg_show name="level5.3"]
-[bg_show name="level1.1"]
+[bg_show name="level5.3"]
 
 #Spot
 A few hours later, Chris and Ben come home. Spot greets them, then follows Chris around the house as she looks for Leah. [p]
@@ -135,8 +134,12 @@ The two enjoy each other’s company and spend the rest of the night in Ben’s 
 @jump target=*scene5.3_end
 
 *scene5.3_end
-;[bg_hide name="level5.3"]
-[bg_hide name="level1.1"]
+{f.james} [p]
+{f.leah} [p]
+{f.chris} [p]
+{f.ben} [p]
+{f.spot}[p]
+[bg_hide name="level5.3"]
 
 @jump file=wide/level5 target=*scene5.3_return
 
