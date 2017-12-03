@@ -9,14 +9,14 @@ James’s car pulls into the driveway a few hours earlier than usual. [p]
 Spot runs to the door and is surprised to see Leah and James come inside. [p]
 He greets them eagerly and notices they both smell odd, like the vet’s office but without the smell of other dogs. [p]
 He also notices that while they both smiled and pet him, they were not as happy or excited as he had expected to be. [p]
-In fact, they both seem a little sad. Leah is even crying a little. [p]
+In fact, they both seem a little sad. Leah is crying. [p]
 Spot wants to help cheer them up, so he decides to bring them something. [p]
 What should he get? [p]
 
 [autosave]
 
-[select_new text="Box_of_tissues" target=*select_a1]
-[select_new text="Rope_toy" target=*select_a2]
+[select_new text="Box of tissues" target=*select_a1]
+[select_new text="Rope toy" target=*select_a2]
 
 [select_show]
 [s]
@@ -24,7 +24,7 @@ What should he get? [p]
 *select_a1
 #Spot
 Spot walks into the living room and grabs a box of tissues off one of the side tables. [p]
-He walks back to Leah and James and offers up the box. [p]
+He walks back to Leah and James, and offers the box. [p]
 James appreciatively grabs the box and hands Leah a tissue, who uses it to dry her eyes. [p]
 James rubs Spot’s head, and the three of them walk into the living room, where James and Leah spend the afternoon talking and watching tv. [p]
 [calc exp="f.spot={f.spot}+1"]

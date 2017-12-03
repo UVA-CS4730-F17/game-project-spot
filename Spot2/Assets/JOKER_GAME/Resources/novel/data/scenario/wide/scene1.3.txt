@@ -115,11 +115,11 @@ Meg and Chris pet him while they enjoy the music. [p]
 @jump target=*scene1.3_end
 
 *select_a3.2
+[hide name="chris"]
+[show name="chris_neutral"]
 Spot figures Chris just forgot what time it is and that he should get the leash to remind her. [p]
 She always loves their walks so why would she want to skip one? [p]
 Spot runs upstairs to get a leash and brings it back to Chris. [p]
-[hide name="chris"]
-[show name="chris_neutral"]
 Chris grabs the leash and sighs. She turns off the music and tells Meg she needs to take Spot on a walk. [p]
 Meg seems a little sad about this, but doesn’t argue. Meg packs up her things and heads home. [p]
 Chris takes Spot for a walk around the neighborhood. He has a blast, chasing squirrels and barking at other dogs. [p]
