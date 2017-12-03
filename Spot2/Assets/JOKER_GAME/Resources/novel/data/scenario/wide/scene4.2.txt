@@ -9,14 +9,14 @@ Spot sits by the door all day and waits for them to come back. [p]
 Everyone comes home at their normal time except James. Every so often someone comes over to the door to check to see if James is back yet. [p]
 Dinnertime comes and still no James. Leah tries to call him but gets no answer. Chris and Leah worry over dinner and wonder when he will be home. [p]
 An hour later James stumbles through the door, smelling strongly of alcohol. The entire family comes to the front door to greet him and are shocked by his appearance. [p]
-Ben holds onto his mother as the two of them cry and watch Chris begin to berate her father. Chris yells at James asking where he’s been and why didn’t he call, telling him they had been worried sick. [p]
-James tries to respond but Chris won’t let him get a word in, just continues to yell at him. [p]
-Spot is horrified that everyone is so unhappy and wants to help, but he doesn’t know what to do. Should he try to break up the fight or focus on comforting the crying Ben and Leah? [p]
+Ben holds onto his mother as the two of them cry and watch Chris begin to berate her father. Chris yells at James, asking where he’s been and why didn’t he call, telling him they had been worried sick. [p]
+James tries to respond but Chris won’t let him get a word in. [p]
+Spot is horrified that everyone is so unhappy and wants to help, but he doesn’t know what to do. Should he try to break up the fight or focus on comforting Ben and Leah? [p]
 
 [autosave]
 
-[select_new text="Break.up.fight" target=*select_a1 ]
-[select_new text="Comfort.Ben.and.Leah" target=*select_a2 ]
+[select_new text="Break up fight" target=*select_a1 ]
+[select_new text="Comfort Ben and Leah" target=*select_a2 ]
 
 [select_show sound=click ]
 

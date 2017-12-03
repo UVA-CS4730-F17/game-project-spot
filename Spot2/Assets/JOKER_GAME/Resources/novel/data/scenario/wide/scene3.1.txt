@@ -151,7 +151,7 @@ Spot puts his tail between his legs and whimpers, then walks over to the living 
 
 *select_a3
 [show name="chris_neutral"]
-[show name="ben_neutral"]
+[show name="ben"]
 #Spot
 Spot runs over to Chris and Ben. Normally Chris would tell Spot to get a toy but seems to be lost in her thoughts. Ben is sitting quietly in his seat. [p]
 Spot wants to bring them out of their funk by getting a toy. Maybe that will cheer them up. What will Spot get? [p]
@@ -166,9 +166,7 @@ Spot wants to bring them out of their funk by getting a toy. Maybe that will che
 *select_a3.1
 #Spot
 [hide name="chris_neutral"]
-[hide name="ben_neutral"]
 [show name="chris"]
-[show name="ben"]
 Spot runs to the living room and grabs a tennis ball that is laying on the floor. 
 Spot runs back to Chris, who grabs the tennis ball from his mouth. [p]
 Chris smiles and gets Ben’s attention. They get up from the table and take turns tossing the ball for Spot to retrieve. [p]
@@ -183,9 +181,7 @@ Once they finish playing, Spot walks over to the living room to chew on a stick.
 *select_a3.2
 #Spot
 [hide name="chris_neutral"]
-[hide name="ben_neutral"]
 [show name="chris"]
-[show name="ben"]
 Spot runs to the living room and grabs a stick that is laying on the floor. 
 Spot runs back to Chris, who grabs the stick from his mouth. [p]
 Chris smiles and gets Ben’s attention. They get up from the table and take turns tossing the stick for Spot to retrieve. [p]
@@ -200,9 +196,7 @@ Once they finish playing, Spot takes the stick over to the living room to chew o
 *select_a3.3
 #Spot
 [hide name="chris_neutral"]
-[hide name="ben_neutral"]
 [show name="chris"]
-[show name="ben"]
 Spot runs to the living room and grabs a piece of rope that is laying on the floor. [p]
 Spot runs back to Chris, who tries to pull the rope from his mouth. Spot refuses to let go. Chris smiles and starts playing tug-of-war with him. [p]
 Ben notices them playing and gets up from the table and comes over to Chris and Spot. He cheers both of them on as they continue to tug on the rope. [p]
@@ -221,7 +215,7 @@ When Spot finally gets back to Chris with the bag, its contents spill out over t
 Chris groans and says ‘Bad Dog!’
 Chris starts cleaning up her bag while Spot walks off with his tail between his legs. He walks over to the living room to chew on a stick. [p]
 [hide name="chris_neutral"]
-[hide name="ben_neutral"]
+[hide name="ben"]
 [calc exp="f.spot={f.spot}-1"]
 [calc exp="f.chris={f.chris}-1"]
 [calc exp="f.ben={f.ben}-1"]
