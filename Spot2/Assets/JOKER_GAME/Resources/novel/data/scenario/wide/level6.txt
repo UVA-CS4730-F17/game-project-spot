@@ -6,7 +6,7 @@
 [calc exp="f.total={f.total}+{f.chris}]
 [calc exp="f.total={f.total}+{f.ben}]
 [calc exp="f.total={f.total}+{f.spot}]
-the total happiness is {f.total} [p]
+The total happiness is {f.total} [p]
 
 ;IF THEY HAVE ENOUGH HAPPINESS TO GET THE GOOD ENDING
 [if exp="{f.total}>50"]
@@ -29,9 +29,9 @@ the total happiness is {f.total} [p]
 Everyone grieves in their own way and in their own time. It is important to express this grief in healthy ways and to seek help so that in time the pain will lessen and life can go on.[p]
 Remember that you are never alone and there will always be someone out there to help. Don’t be afraid to ask for that help.[p]
 
-And if you know someone going through a painful time, be there for them. Listen to them, help them process their pain, guide them to resources. Take care of each other.[p]
+If you know someone going through a painful time, be there for them. Listen to them, help them process their pain, guide them to resources. Take care of each other.[p]
 
-“Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.” ~J.K. Rowling[p]
+“Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.“ –J.K. Rowling[p]
 
 
 @jump file=wide/master target=*level6_return

@@ -1,6 +1,6 @@
 *scene6-good_begin
 
-[bg_show name="level1.1"]
+[bg_show name="level6.1"]
 
 #Spot
 A few days pass.[p]
@@ -8,27 +8,39 @@ Spot spends each one sitting by the door, hoping Leah would come in any second n
 During these days, the rest of the family isn’t home much. The come home late each night, smelling of anesthetic. Some days they seem hopeful as they walk through the door, others not so much.[p]
 After a week of waiting, Spot sees James’s car pull into the driveway late at night. He stands at the door, wagging his tail, hoping tonight would be the night Leah finally comes back.[p]
 His heart sinks when he sees the family hobble out the car, each one of them barely holding back tears.[p]
+
+[bg_hide name="level6.1"]
+[bg_show name="level6.2"]
+
 As soon as they walk through the door, Ben rushes to Spot and wraps him in a hug. He’s shaking from crying so hard, and Spot’s fur gets wet from the tears.[p]
 After a few minutes, James and Chris slowly usher Ben and Spot away from the door into the living room.[p]
 Spot does not know what has happened, but he can tell it’s bad. He spends the rest of the evening staying close to Ben, sleeping next to his bed throughout the night.[p]
-The next day, James, Chris, and Ben stay home instead of leaving for work and school. Their moods have not lightened, and they spend most of the day in the living room, watching TV and appreciating each other's’ presence.[p]
+The next day, James, Chris, and Ben stay home instead of leaving for work and school. Their moods have not lightened, and they spend most of the day in the living room, watching TV and appreciating each others’ presence.[p]
 Occasionally James would leave the room to talk on the phone.[p]
+
+[bg_hide name="level6.2"]
+[bg_show name="level6.3"]
+
 The following day everyone gets up and dresses in dark, formal clothing. They put a leash on Spot and lead him to the car. Normally he would get excited about the leash, but the mood tells him something is off.[p]
 After a short car ride they arrive to a grassy area Spot has never seen before. There are a number of tall stones lined up in rows, some with flowers leaned up against them.[p]
 The family walks silently through these rows until they get to a stone with a big hole in front of it.[p]
 Next to the hole is a large box. The family stands next to this box as more people start congregating next to them. Spot recognizes some of them, cousins and friends that have visited the house.[p]
 A few people talk while others cry or stand in solemn silence. After a while a few of them grab the box and slowly lower it into the ground. People shake hands and hug, then slowly leave one by one until only the family is left.[p]
 They stay there for nearly an hour in silence that is only broken by the occasional sob from Ben. Then, they go home.[p]
+
+[bg_hide name="level6.3"]
+[bg_show name="level6.4b"]
+
 The next few weeks are hard. Spot finally realizes Leah isn’t coming home. He stops waiting by the front door.[p]
 Despite this loss, the family seems closer than they have been in the months since Leah first got sick. They barely spend time apart when they are home, and while they still are sad and quiet, each day this lessens.[p]
-James throws away his bottles of amber liquid.[p]
-Meg comes over often, but instead of staying down in Chris’s room, she spends time with the whole family, staying for dinner and helping around the house. Everyone seems to be happy with her around.[p]
+James throws away his bottles of scotch.[p]
+Chris's friend Meg comes over often, but instead of staying down in Chris’s room, she spends time with the whole family, staying for dinner and helping around the house. Everyone seems to be happy with her around.[p]
 Spot spends most of his days with Ben, and is happy to see that each day Ben seems more and more like himself. He still cries occasionally, but his family is there to help dry his tears and support him.[p]
 Over time they heal.[p]
 
 
 
-[bg_hide name="level1.1"]
+[bg_hide name="level6.4b"]
 @jump file=wide/level6 target=*scene6-good_return
 
 [s]
