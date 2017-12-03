@@ -14,21 +14,21 @@ Spot walks over to Leah and notices a strange smell.
 [s]
 
 *sniffed.1
-Spot sniffs Leah and realizes this is a smell he has never encountered before and it smells BAD. [p]
-Should he bark to let her and the rest of the family know? [p]
+Spot sniffs Leah and realizes this is a smell he has never encountered before. It smells BAD. [p]
+Should he bark to let her know? [p]
 
 [select_new text="Bark" target=*select_a.1]
-[select_new text="Don’t.bark" target=*select_a.2]
+[select_new text="Don’t bark" target=*select_a.2]
 
 [select_show]
 [s]
 
 *select_a.1
 #Spot
-Spot starts barking very loudly. This causes Leah to jump in surprise. [p]
+Spot starts barking very loudly. Leah jumps in surprise. [p]
 The rest of the family comes to the kitchen to see why Spot is barking so much. [p]
 James comes over and starts to reprimand Spot, saying "Quiet!" over and over again until he stops. [p]
-Leah starts coughing into her hands and when she stops there is blood on her hands. [p]
+Leah starts coughing into her hands and when she stops there is blood on her palms. [p]
 While Leah washes her hands in the sink, the rest of the family glares at Spot. [p]
 Spot puts his tail in between his legs and walks into the living room to lay down. [p]
 He does not understand why they did not understand his concern. [p]
@@ -43,7 +43,7 @@ The rest of the family goes back to getting ready for the rest of the day. [p]
 
 *select_a.2
 #Spot
-Spot decides he is probably overreacting and that even if this smell is not great, it’s nothing to worry about. [p]
+Spot decides he is probably overreacting. This smell is not great, but it’s nothing to worry about. [p]
 Spot walks back to the living room to take a nap. [p]
 
 @jump target=*scene1.2_end

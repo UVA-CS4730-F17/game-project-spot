@@ -2,10 +2,10 @@
 [bg_show name="level1.3"]
 #Spot
 The family leaves the house to go to work and school. [p] 
-Spot is sad that they are gone, but knows that they will come back later, as they always do. [p]
-He lays by the front door and waits for their return, napping from time to time and barking at squirrels that walk on the lawn. [p]
+Spot is sad that they are gone, but knows that they will come back later. [p]
+He lays by the front door and waits for their return,  barking at squirrels that walk on the lawn and napping in the sunlight. [p]
 A few hours later, the family comes home. Spot greets everyone as they walk through the door. [p]
-The family has dinner together then retreat to their rooms while Leah cleans up. [p]
+They all head to their rooms, except Leah, who goes to the kitchen to cook dinner. [p]
 Spot wants to follow one of them, but who will it be? [p]
 
 [autosave]
@@ -50,12 +50,14 @@ James smiles, then continues reading, enjoying Spot’s company for the night. [
 @jump target=*scene1.3_end
 
 *select_a1.2
-Spot runs over and grabs a nearby ball. He drops the toy at James’s feet. [p]
+[hide name="james"]
+[show name="james_neutral"]
+Spot runs over and grabs a nearby ball. He drops it at James’s feet. [p]
 James sighs, puts down his book, and grabs the ball. [p]
 They start playing fetch. [p]
 Spot is elated that James and him are having a blast playing together. [p]
-James is happy to spend time with Spot but really wanted to read that book. [p]
-[hide name="james"]
+James is happy to spend time with Spot, but he really wanted to read that book. [p]
+[hide name="james_neutral"]
 [calc exp="f.james={f.james}+1"]
 [calc exp="f.spot={f.spot}+3"]
 @jump target=*scene1.3_end
@@ -68,8 +70,8 @@ Leah looks really busy making dinner and Spot is still worried about her weird s
 At the same time, he is really hungry and that food smells so good. [p]
 Should Spot beg her for food or leave her alone and bother someone else? [p]
 
-[select_new text="Get.dinner" target=*select_a2.1 ]
-[select_new text="Find.someone.else" target=*select_a2.2]
+[select_new text="Get dinner" target=*select_a2.1 ]
+[select_new text="Find someone else" target=*select_a2.2]
 
 [select_show]
 [s]
@@ -77,7 +79,7 @@ Should Spot beg her for food or leave her alone and bother someone else? [p]
 *select_a2.1
 Spot’s hunger wins him over, so he walks up to Leah and slightly nudges her legs with his nose. [p]
 Leah looks at the clock and realized he must be hungry, so she walks over to his food bowl and fills it with kibble. [p]
-Spot eats his dinner then curls up at Leah’s feet as she continues to make dinner. She’s happy for the company.  [p]
+Spot eats his dinner then curls up at Leah’s feet as she continues to make dinner. She’s happy to have his company.  [p]
 [hide name="leah"]
 [calc exp="f.spot={f.spot}+2"]
 [calc exp="f.leah={f.leah}+2"]
@@ -96,32 +98,33 @@ Chris is sitting on her bed with her best friend Meg, listening to loud rock mus
 Normally Chris takes Spot on walks at this time of the evening, but she seems pretty happy to be hanging out with Meg. [p]
 Should Spot hang out with Meg and Chris, or should he get her the leash to remind her what time it is? Maybe Meg will come on the walk. [p]
 
-[select_new text="Walk" target=*select_a3.2 ]
-[select_new text="No.walk" target=*select_a3.1 ]
+[select_new text="Get the leash" target=*select_a3.2 ]
+[select_new text="Hang out" target=*select_a3.1 ]
 
 [select_show]
 [s]
 
 *select_a3.1
-Spot decides to let Meg and Chris continue rocking out in Chris’s room. [p]
-He can always go for a walk tomorrow.
+Spot decides to let Meg and Chris continue rocking out in Chris’s room. He can always go for a walk tomorrow. [p]}
 Spot goes to lay down by the bed. Chris sees him walk in and invites him up to hang out with them. [p]
 Spot jumps up on the bed and lays between them. [p]
-Meg and Chris pet him and go back to chatting with each other and enjoying the music. [p]
+Meg and Chris pet him while they enjoy the music. [p]
 [hide name="chris"]
 [calc exp="f.spot={f.spot}+1"]
 [calc exp="f.chris={f.chris}+1"]
 @jump target=*scene1.3_end
 
 *select_a3.2
-Spot figures Chris just forgot what time it is and that he should get a leash to remind her. [p]
+Spot figures Chris just forgot what time it is and that he should get the leash to remind her. [p]
 She always loves their walks so why would she want to skip one? [p]
 Spot runs upstairs to get a leash and brings it back to Chris. [p]
+[hide name="chris"]
+[show name="chris_neutral"]
 Chris grabs the leash and sighs. She turns off the music and tells Meg she needs to take Spot on a walk. [p]
 Meg seems a little sad about this, but doesn’t argue. Meg packs up her things and heads home. [p]
 Chris takes Spot for a walk around the neighborhood. He has a blast, chasing squirrels and barking at other dogs. [p]
 He’s so excited that he doesn’t notice that Chris is not her normal happy self on this walk. [p]
-[hide name="chris"]
+[hide name="chris_neutral"]
 [calc exp="f.spot={f.spot}+1"]
 [calc exp="f.chris={f.chris}-2"]
 @jump target=*scene1.3_end
@@ -130,12 +133,12 @@ He’s so excited that he doesn’t notice that Chris is not her normal happy se
 [show name="ben"]
 #Spot
 Spot runs upstairs to Ben’s room. Ben is on the floor building a house with legos. [p]
-When Spot runs into the room, Ben immediately stands up and starts playing with Spot. [p]
-Spot is incredibly excited and isn’t sure what type of games they should play. [p]
+When Spot runs into the room, Ben looks up and smiles at Spot. [p]
+Spot wants to play with Ben, but isn't sure what they should do. [p]
 Should Spot grab one of his toys or grab the toys Ben was playing with? [p]
 
-[select_new text="Get.a.toy" target=*select_a4.1 ]
-[select_new text="Pick.up.lego.house" target=*select_a4.2]
+[select_new text="Get a toy" target=*select_a4.1 ]
+[select_new text="Pick up lego house" target=*select_a4.2]
 
 [select_show]
 [s]
@@ -150,7 +153,7 @@ He brings it back to Ben and they play tug-o-war with the rope. [p]
 
 *select_a4.2
 Spot carefully picks up the house Ben just built. [p]
-He’s picked up things like this before and has learned if he’s not careful he might break it. [p]
+He’s picked up things like this before and has learned that if he’s not careful he might break it. [p]
 Ben shrieks with laughter and chases Spot throughout the house trying to get the house back. [p]
 As they go through each room, they run into each family member. [p]
 James tries to help Ben grab Spot, Leah laughs, and Chris tries to hold Ben back to give Spot a head start to the next room. [p]

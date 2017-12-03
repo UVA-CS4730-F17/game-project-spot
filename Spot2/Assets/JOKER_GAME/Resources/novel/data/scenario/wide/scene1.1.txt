@@ -13,7 +13,7 @@ Who would Spot like to greet?
 
 [select_new text="James" target=*select_a1 ]
 [select_new text="Leah" target=*select_a2 ]
-[select_new text="Chris,Ben" target=*select_a3 ]
+[select_new text="Chris and Ben" target=*select_a3 ]
 
 [select_show sound=click ]
 
@@ -22,8 +22,10 @@ Who would Spot like to greet?
 *select_a1
 [show name="james"]
 #Spot
-Spot runs up to James and stares up at him expectantly. He smiles at Spot and says something to Spot. 
-Spot understand the words ‘get’ and ‘paper.’ What would Spot like to do?[p]
+Spot runs up to James and stares up at him expectantly. [p]
+He smiles at Spot and says something to Spot. 
+Spot understand the words ‘get’ and ‘paper.’ [p]
+What would Spot like to do?[p]
 
 [select_new text="Newspaper" target=*select_a1.1 ]
 [select_new text="Leash" target=*select_a1.2 ]
@@ -44,6 +46,8 @@ He smiles at Spot, says ‘Good Boy!’, and pats Spot on the head, who wags his
 
 *select_a1.2
 #Spot
+[hide name="james"]
+[show name="james_neutral"]
 Spot trots over to the hat rack by the front door. [p]
 He looks at all of the objects hanging off the rack, 
 then pulls down the leash because he wants to take a walk. [p]
@@ -52,29 +56,33 @@ He frowns a little, says `No time for a walk, buddy`
 and gets up to put away the leash. [p]
 Spot whimpers in disappointment, then walks 
  over to the living room to chew on the stick. [p]
- [hide name="james"]
- [calc exp="f.spot={f.spot}-1"]
+[hide name="james_neutral"]
+[calc exp="f.spot={f.spot}-1"]
 @jump target=*scene1.1_end
 
 *select_a1.3
 #Spot
+[hide name="james"]
+[show name="james_neutral"]
 Spot trots over to the hat rack by the front door. [p]
 He looks at all of the objects hanging off the rack, then jumps up and pulls down the hat because he thinks James’s head looks cold. [p]
 He brings it over to James, who grabs it. [p]
 He frowns a little, says ‘No,’ and gets up to put away the hat. [p]
 Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
-[hide name="james"]
+[hide name="james_neutral"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene1.1_end
 
 *select_a1.4
 #Spot
+[hide name="james"]
+[show name="james_neutral"]
 Spot trots over to the hat rack by the front door. [p] 
 He looks at all of the objects hanging off the rack, then jumps up and pulls down the jacket because he thinks James looks cold. [p]
 He brings it over to James, who grabs it. [p]
 He frowns a little, says ‘No,’ and gets up to put away the jacket. [p] 
 Spot whimpers in disappointment, then walks over to the living room to chew on the stick. [p]
-[hide name="james"]
+[hide name="james_neutral"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene1.1_end
 
@@ -84,11 +92,11 @@ Spot runs up to Leah, hoping to get one of the pieces of bacon. [p]
 Leah looks down at Spot, pats his head, and says, ‘Sit!’ [p]
 What would Spot like to do? [p]
 
-[select_new text="Fetch_Toy" target=*select_a2.2 ]
+[select_new text="Fetch Toy" target=*select_a2.2 ]
 [select_new text="Shake" target=*select_a2.3 ]
-[select_new text="Lie.Down" target=*select_a2.4 ]
+[select_new text="Lie Down" target=*select_a2.4 ]
 [select_new text="Sit" target=*select_a2.1 ]
-[select_new text="Roll.Over" target=*select_a2.5 ]
+[select_new text="Roll Over" target=*select_a2.5 ]
 
 [select_show]
 [s]
@@ -96,7 +104,7 @@ What would Spot like to do? [p]
 *select_a2.1
 #Spot
 Spot sits down. [p]
-Leah smiles, says, ‘Good Boy!’ She then tosses Spot a piece of bacon. [p]
+Leah smiles, and says, ‘Good Boy!’ She tosses Spot a piece of bacon. [p]
 Spot catches the bacon and wags his tail. [p] 
 Spot then walks over to the living room to chew on a stick. [p]
 [hide name="leah"]
@@ -106,42 +114,50 @@ Spot then walks over to the living room to chew on a stick. [p]
 
 *select_a2.2
 #Spot
+[hide name="leah"]
+[show name="leah_neutral"]
 Spot starts running towards the living room to find a toy. [p]
 He grabs the first thing he can find, which is a stick. [p]
-He brings the toy over to Leah and places it at her feet. [p]
+He brings the stick over to Leah and places it at her feet. [p]
 Leah shakes her head and speaks to Chris. [p] 
 Chris comes over and pats Spot on the head. [p] 
 She then picks up the stick and takes it back to the living room. [p] 
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on the stick. [p]
-[hide name="leah"]
+[hide name="leah_neutral"]
 [calc exp="f.spot={f.spot}-1"]
 [calc exp="f.chris={f.chris}-1"]
 @jump target=*scene1.1_end
 
 *select_a2.3
 #Spot
+[hide name="leah"]
+[show name="leah_neutral"]
 Spot holds out one of his paws. [p]
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick. [p]
-[hide name="leah"]
+[hide name="leah_neutral"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene1.1_end
 
 *select_a2.4
 #Spot
+[hide name="leah"]
+[show name="leah_neutral"]
 Spot lies down on the ground. [p]
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece and walks over to the living room to chew on a stick. [p]
-[hide name="leah"]
+[hide name="leah_neutral"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene1.1_end
 
 *select_a2.5
 #Spot
+[hide name="leah"]
+[show name="leah_neutral"]
 Spot drops to the ground and rolls over. He stands back up and stares expectantly. [p]
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece of bacon and walks over to the living room to chew on a stick. [p]
-[hide name="leah"]
+[hide name="leah_neutral"]
 [calc exp="f.spot={f.spot}-1"]
 @jump target=*scene1.1_end
 
@@ -154,7 +170,7 @@ Chris looks over at Spot and says something to him. Spot understands the words �
 What will Spot get? [p]
 
 [select_new text="Stick" target=*select_a3.2 ]
-[select_new text="Tennis.Ball" target=*select_a3.1 ]
+[select_new text="Tennis Ball" target=*select_a3.1 ]
 [select_new text="Rope" target=*select_a3.3 ]
 [select_new text="Backpack" target=*select_a3.4 ]
 
@@ -205,14 +221,18 @@ Once they finish playing, Spot walks over to the living room to chew on a stick.
 
 *select_a3.4
 #Spot
+[hide name="chris"]
+[hide name="ben"]
+[show name="chris_neutral"]
+[show name="ben_neutral"]
 Spot runs over to the front door and grabs a backpack lying on the ground. [p] 
 It’s too heavy for him to pick up, so he drags it over to the table. [p] 
 When Spot finally gets back to Chris with the bag, its contents spill out over the floor. [p]
 Chris groans and says ‘Bad Dog!’ [p]
 Chris starts cleaning up her bag while Spot walks off with his tail between his legs. [p]
 He walks over to the living room to chew on a stick. [p]
-[hide name="chris"]
-[hide name="ben"]
+[hide name="chris_neutral"]
+[hide name="ben_neutral"]
 [calc exp="f.spot={f.spot}-1"]
 [calc exp="f.chris={f.chris}-1"]
 [calc exp="f.ben={f.ben}-1"]
