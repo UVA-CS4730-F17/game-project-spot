@@ -1,4 +1,4 @@
-@call file=wide/libs/utils
+﻿@call file=wide/libs/utils
 [bg_new name="level1.1" storage="level1.1"]
 [bg_new name="level1.2" storage="level1.2"]
 [bg_new name="level1.3" storage="level1.3"]
