@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\master.txt">
+    <Files>
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\master.txt" Line="54" Column="29" />
+      <File FileName="Assets\JOKER\Scripts\Novel\ObjectSet\ImageObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene4.1.txt" Line="150" Column="30" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\level1.txt" Line="1" Column="1" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.1.txt" Line="233" Column="6" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.2.txt" Line="1" Column="1" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene1.3.txt" Line="103" Column="1" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene2.1.txt" Line="239" Column="33" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene4.2.txt" Line="7" Column="113" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene3.1.txt" Line="160" Column="19" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene5.1.txt" Line="7" Column="36" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene3.2.txt" Line="1" Column="1" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene2.2.txt" Line="1" Column="1" />
+      <File FileName="Assets\JOKER_GAME\Resources\novel\data\scenario\wide\scene2.3.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,89 @@
+﻿@call file=wide/libs/utils
+[bg_new name="level1.1" storage="level1.1"]
+[bg_new name="level1.2" storage="level1.2"]
+[bg_new name="level1.3" storage="level1.3"]
+[bg_new name="level2.1" storage="level2.1"]
+[bg_new name="level2.2" storage="level2.2"]
+[bg_new name="level2.3" storage="level2.3"]
+[bg_new name="level3.1" storage="level3.1"]
+[bg_new name="level3.2" storage="level3.2"]
+[bg_new name="level3.3" storage="level3.3"]
+[bg_new name="level4.1" storage="level4.1"]
+[bg_new name="level4.2" storage="level4.2"]
+[bg_new name="level5.1" storage="level5.1"]
+[bg_new name="level5.2" storage="level5.2"]
+[bg_new name="level5.3" storage="level5.3"]
+[bg_new name="level6.1" storage="level6.1"]
+[bg_new name="level6.2" storage="level6.2"]
+[bg_new name="level6.3" storage="level6.3"]
+[bg_new name="level6.4a" storage="level6.4a"]
+[bg_new name="level6.4b" storage="level6.4b"]
+
+;メッセージ表示
+[showmessage]
+[call file=wide/system target="*system_setting_buttons"]
+[text_new name=_sp_chara_name layer=ui x="-168" y=-108.5 val="" color="DDFF00" fontsize=16 anchor="MiddleLeft"]
+[text_show name="_sp_chara_name"] 
+
+
+;---------------キャラ定義
+
+@tag_default tag="chara"
+[chara_new name="james" storage="resize_james_profile" jname="James" scale=2 jcolor=FF77FF]
+[chara_new name="james_neutral" storage="james_profile_neutral" jname="James" scale=2 jcolor=FF77FF]
+[chara_new name="leah" storage="resize_leah_profile" jname="Leah" scale=2 jcolor=FF77FF]
+[chara_new name="leah_neutral" storage="leah_profile_neutral" jname="Leah" scale=2 jcolor=FF77FF]
+[chara_new name="chris" storage="resize_chris_profile" jname="Chris" scale=2 jcolor=FF77FF]
+[chara_new name="chris_neutral" storage="chris_profile_neutral" jname="Chris" scale=2 jcolor=FF77FF]
+[chara_new name="ben" storage="resize_ben_profile" jname="Ben" scale=2 jcolor=FF77FF]
+[chara_new name="ben_neutral" storage="ben_profile_neutral" jname="Ben" scale=2 jcolor=FF77FF]
+[chara_new name="leah_sick" storage="leah_profile_sick" jname="Leah" scale=2 jcolor=FF77FF]
+[chara_new name="leah_sick_neutral" storage="leah_profile_sick_neutral" jname="Leah" scale=2 jcolor=FF77FF]
+@reset_tag_default
+
+
+@chara_pos name="james" x=0 y=-0.7
+@chara_pos name="leah" x=0 y=-0.7
+@chara_pos name="leah_sick" x=0 y=-0.7
+@chara_pos name="chris" x=0 y=-0.7
+@chara_pos name="ben" x=-5 y=-0.7
+@chara_pos name="james_neutral" x=0 y=-0.7
+@chara_pos name="leah_neutral" x=0 y=-0.7
+@chara_pos name="leah_sick_neutral" x=0 y=-0.7
+@chara_pos name="chris_neutral" x=0 y=-0.7
+@chara_pos name="ben_neutral" x=-5 y=-0.7
+
+;HAPPINESS METERS
+[calc exp="f.spot=10"]
+[calc exp="f.james=10"]
+[calc exp="f.leah=10"]
+[calc exp="f.chris=10"]
+[calc exp="f.ben=10"]
+
+[playbgm wait=false time=1 storage="music"]
+
+@jump file=wide/level1 target=*level1_begin
+
+*level1_return
+
+@jump file=wide/level2 target=*level2_begin
+
+*level2_return
+
+@jump file=wide/level3 target=*level3_begin
+
+*level3_return
+
+@jump file=wide/level4 target=*level4_begin
+
+*level4_return
+
+@jump file=wide/level5 target=*level5_begin
+
+*level5_return
+
+@jump file=wide/level6 target=*level6_begin
+
+*level6_return
+
+@jump new file=wide/title.txt
