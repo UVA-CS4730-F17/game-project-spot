@@ -99,7 +99,7 @@ What would Spot like to do? [p]
 #Spot
 [hide name="leah_sick_neutral"]
 [show name="leah_sick"]
-Spot sits down.
+Spot sits down. [p]
 Leah smiles, says, ‘Good Boy!’ She tosses Spot a piece of bacon. [p]
 Spot catches the bacon and wags his tail. Spot then walks over to the living room to chew on a stick. [p]
 [hide name="leah_sick"]
@@ -131,7 +131,7 @@ Spot realizes that he is not getting a piece of bacon and walks over to the livi
 
 *select_a2.4
 #Spot
-Spot lies down on the ground.
+Spot lies down on the ground. [p]
 Leah looks at Spot and shakes her head. She goes back to making bacon. [p]
 Spot realizes that he is not getting a piece and walks over to the living room to chew on a stick. [p]
 [hide name="leah_sick_neutral"]
@@ -167,7 +167,7 @@ Spot wants to bring them out of their funk by getting a toy. Maybe that will che
 #Spot
 [hide name="chris_neutral"]
 [show name="chris"]
-Spot runs to the living room and grabs a tennis ball that is laying on the floor. 
+Spot runs to the living room and grabs a tennis ball that is laying on the floor. [p]
 Spot runs back to Chris, who grabs the tennis ball from his mouth. [p]
 Chris smiles and gets Ben’s attention. They get up from the table and take turns tossing the ball for Spot to retrieve. [p]
 Once they finish playing, Spot walks over to the living room to chew on a stick. [p] 

@@ -13,10 +13,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 62
     y: 43
     width: 1304
     height: 725
+=======
+    x: 117
+    y: 45
+    width: 1239
+    height: 776
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
@@ -105,12 +112,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1304
     height: 675
   m_MinSize: {x: 711, y: 492}
   m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
   controlID: 977
+=======
+    width: 1239
+    height: 726
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
+  vertical: 0
+  controlID: 3763
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +175,11 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 1055
+=======
+  controlID: 3764
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,6 +196,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 753
     height: 397
   m_MinSize: {x: 202, y: 221}
@@ -186,6 +207,18 @@ MonoBehaviour:
   - {fileID: 11}
   m_Selected: 1
   m_LastSelected: 0
+=======
+    width: 715
+    height: 427
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 11}
+  m_Selected: 0
+  m_LastSelected: 1
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,10 +293,17 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 323
     y: 92
     width: 749
     height: 376
+=======
+    x: 2
+    y: 19
+    width: 711
+    height: 406
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
@@ -272,10 +312,17 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -374.5
     m_HBaseRangeMax: 374.5
     m_VBaseRangeMin: -179.5
     m_VBaseRangeMax: 179.5
+=======
+    m_HBaseRangeMin: -619.5
+    m_HBaseRangeMax: 619.5
+    m_VBaseRangeMin: -344
+    m_VBaseRangeMax: 344
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -284,7 +331,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -292,25 +339,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 749
       height: 359
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 374.5, y: 179.5}
+=======
+      width: 1239
+      height: 688
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 619.5, y: 344}
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -374.5
       y: -179.5
       width: 749
       height: 359
+=======
+      x: -619.5
+      y: -344
+      width: 1239
+      height: 688
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 749, y: 376}
+=======
+  m_LastWindowPixelSize: {x: 1239, y: 705}
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -344,7 +409,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 42300000
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: f8f6ffff00000000
+=======
+    m_ExpandedIDs: 14fcffff000000008228000094280000a0280000b6280000d42800000629000018290000
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,10 +458,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 310
-    y: 92
-    width: 862
-    height: 489
+    x: 366
+    y: 94
+    width: 711
+    height: 406
   m_SceneLighting: 1
   lastFramingTime: 201.66366140417526
   m_2DMode: 1
@@ -479,19 +548,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/JOKER_GAME/Resources/novel/data/bgm
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/JOKER_GAME/Resources/novel/data/bgm
+=======
+    - Assets/JOKER_GAME/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/JOKER_GAME/Scenes
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Li-Chian\Documents\Game\spot_real\Spot2
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 153.9121}
     m_SelectedIDs: 742a0000
     m_LastClickedID: 10868
     m_ExpandedIDs: 00000000362a0000402a0000542a00007e2a0000842a0000962a0000c62a0000e42a00002e2b0000542b000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: fa270000
+    m_LastClickedID: 10234
+    m_ExpandedIDs: 000000007626000086260000c8260000ce260000e026000010270000302700007c270000aa270000ffffff7f
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -519,7 +603,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000362a0000402a0000542a00007e2a0000842a0000962a0000c62a0000e42a00002e2b0000542b000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 000000007626000086260000c8260000ce260000e026000010270000302700007c270000aa270000ffffff7f
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

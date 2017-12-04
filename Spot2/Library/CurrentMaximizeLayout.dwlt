@@ -19,12 +19,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1304
     height: 675
   m_MinSize: {x: 711, y: 492}
   m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
   controlID: 799
+=======
+    width: 1239
+    height: 726
+  m_MinSize: {x: 705, y: 471}
+  m_MaxSize: {x: 18000, y: 14021}
+  vertical: 0
+  controlID: 3078
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,9 +163,15 @@ MonoBehaviour:
     height: 654
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 42300000
     m_LastClickedID: 0
     m_ExpandedIDs: f8f6ffff00000000
+=======
+    m_SelectedIDs: 8c280000
+    m_LastClickedID: 10380
+    m_ExpandedIDs: 14fcffff000000008228000094280000a0280000b6280000d42800000629000018290000
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -197,12 +212,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259
     y: 0
+<<<<<<< HEAD
     width: 753
     height: 675
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
   controlID: 778
+=======
+    width: 715
+    height: 726
+  m_MinSize: {x: 230, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
+  vertical: 1
+  controlID: 3057
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,10 +243,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 753
     height: 397
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 715
+    height: 427
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 7}
@@ -251,10 +282,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 310
-    y: 92
-    width: 862
-    height: 489
+    x: 366
+    y: 94
+    width: 711
+    height: 406
   m_SceneLighting: 1
   lastFramingTime: 201.66366140417526
   m_2DMode: 1
@@ -367,19 +398,34 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/JOKER_GAME/Resources/novel/data/bgm
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/JOKER_GAME/Resources/novel/data/bgm
+=======
+    - Assets/JOKER_GAME/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/JOKER_GAME/Scenes
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Li-Chian\Documents\Game\spot_real\Spot2
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 153.9121}
     m_SelectedIDs: 742a0000
     m_LastClickedID: 10868
     m_ExpandedIDs: 00000000362a0000402a0000542a00007e2a0000842a0000962a0000c62a0000e42a00002e2b0000542b000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: fa270000
+    m_LastClickedID: 10234
+    m_ExpandedIDs: 000000007626000086260000c8260000ce260000e026000010270000302700007c270000aa270000ffffff7f
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -432,8 +478,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 42300000
     m_LastClickedInstanceID: 12354
+=======
+    m_SelectedInstanceIDs: 8c280000
+    m_LastClickedInstanceID: 10380
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 00000000e8dc0000dedd00008a260000a227000076260000dc2800009ec0ffffc8bcffff349affff5e96ffff
     m_RenameOverlay:
@@ -552,10 +603,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1076
     y: 92
     width: 290
     height: 654
+=======
+    x: 1081
+    y: 94
+    width: 275
+    height: 705
+>>>>>>> d721f6144cda8b216b08b639447c44d598570156
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
