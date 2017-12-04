@@ -241,6 +241,9 @@ He walks over to the living room to chew on a stick. [p]
 *scene2.1_end
 [bg_hide name="level2.1"]
 
+[stopbgm]
+[playbgm wait=false time=1 storage="sadpiano"]
+
 @jump file=wide/level2 target=*scene2.1_return
 
 [s]

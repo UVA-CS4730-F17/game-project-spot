@@ -6,11 +6,11 @@
 [calc exp="f.total={f.total}+{f.chris}]
 [calc exp="f.total={f.total}+{f.ben}]
 [calc exp="f.total={f.total}+{f.spot}]
-The total happiness is {f.total} [p]
 
 ;IF THEY HAVE ENOUGH HAPPINESS TO GET THE GOOD ENDING
 [if exp="{f.total}>50"]
-
+[stopbgm]
+[playbgm wait=false time=1 storage="goodending"]
 @jump file=wide/scene6-good target=*scene6-good_begin
 
 *scene6-good_return
@@ -19,6 +19,8 @@ The total happiness is {f.total} [p]
 
 ;BAD ENDING
 [else]
+[stopbgm]
+[playbgm wait=false time=1 storage="badending"]
 @jump file=wide/scene6-bad target=*scene6-bad_begin
 
 *scene6-bad_return

@@ -2,6 +2,7 @@
 
 [bg_show name="level2.2"]
 
+
 #Spot
 After breakfast, the family leaves the house for work and school. [p]
 Spot spends the morning napping in the living room, waiting for them to return. [p]

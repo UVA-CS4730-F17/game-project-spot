@@ -140,11 +140,7 @@ The two enjoy each other’s company and spend the rest of the night in Ben’s 
 @jump target=*scene5.3_end
 
 *scene5.3_end
-{f.james} [p]
-{f.leah} [p]
-{f.chris} [p]
-{f.ben} [p]
-{f.spot}[p]
+
 [bg_hide name="level5.3"]
 
 @jump file=wide/level5 target=*scene5.3_return
